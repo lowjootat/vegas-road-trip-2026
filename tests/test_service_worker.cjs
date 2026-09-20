@@ -59,7 +59,7 @@ test('complete installation serves scope root and index offline and reports read
     await first.dispatch('install');
     await first.dispatch('activate');
     assert.equal(first.claimed,true);
-    assert.equal(first.skipped,true);
+    assert.equal(first.skipped,false);
     const offline=worker('v1',stores,{fail:true});
     for (const suffix of ['', 'index.html', '?source=homescreen']) {
         const response=await offline.dispatch('fetch',{request:new Request(scope+suffix)});
@@ -88,18 +88,20 @@ test('failed and mixed-version updates preserve the previous working cache',asyn
         assert.equal(stores.has(prefix+'v2'),false);
     }
 });
-test('successful update activates, reloads clients and only removes this app’s old cache',async()=>{
+test('successful update waits for approval, then activates and removes only this app’s old cache',async()=>{
     const stores=new Map([['unrelated-cache',new Map()]]);
     await worker('v1',stores).dispatch('install');
     const next=worker('v2',stores,{clientUrls:[scope, 'https://example.com/another-site/']});
     await next.dispatch('install');
     assert.equal(stores.has(prefix+'v1'),true);
+    assert.equal(next.skipped,false);
+    await next.dispatch('message',{data:{type:'ACTIVATE_UPDATE'}});
     assert.equal(next.skipped,true);
     await next.dispatch('activate');
     assert.equal(stores.has(prefix+'v1'),false);
     assert.equal(stores.has(prefix+'v2'),true);
     assert.equal(stores.has('unrelated-cache'),true);
-    assert.deepEqual(next.navigated,[scope]);
+    assert.deepEqual(next.navigated,[]);
 });
 test('retry repairs missing cached assets without discarding a saved page on failure',async()=>{
     const stores=new Map();

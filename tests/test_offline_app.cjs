@@ -5,14 +5,16 @@ const vm = require('node:vm');
 const source = readFileSync('web/offline-app.js', 'utf8');
 
 async function openApp({ installed = true, ios = false, cached = true, storage, updateFails = false } = {}) {
-    const status = {}, action = {}, events = {};
-    const registration = { update: async () => { if (updateFails) throw Error('Offline'); } };
+    const status = {}, action = {}, events = {}, windowEvents = {};
+    let updateCalls = 0;
+    const registration = { update: async () => { updateCalls++; if (updateFails) throw Error('Offline'); } };
     const context = {
         navigator: { storage, standalone: ios, serviceWorker: {
             controller: { postMessage: (_, [port]) => queueMicrotask(() => port.deliver(cached)) },
             register: async () => registration, addEventListener() {},
         } },
-        window: { isSecureContext: true, matchMedia: () => ({ matches: installed }), addEventListener() {} },
+        window: { isSecureContext: true, matchMedia: () => ({ matches: installed }),
+            addEventListener: (name, handler) => { windowEvents[name] = handler; } },
         document: { getElementById: id => id === 'offline-status' ? status : action,
             addEventListener: (name, handler) => { events[name] = handler; } },
         MessageChannel: class {
@@ -25,7 +27,7 @@ async function openApp({ installed = true, ios = false, cached = true, storage, 
     };
     await vm.runInNewContext(source, context);
     await new Promise(resolve => setImmediate(resolve));
-    return { status, action, events };
+    return { status, action, events, windowEvents, get updateCalls() { return updateCalls; } };
 }
 
 test('installed app requests persistence and confirms it before showing protection', async () => {
@@ -73,4 +75,15 @@ test('existing persistence avoids another request and never implies files are ca
     assert.equal(status.textContent, 'Not saved offline. Connect to the internet and retry.');
     assert.equal((await openApp({ storage, updateFails: true })).status.textContent,
         'Ready offline · Storage protected · Update could not download');
+});
+
+test('launch and foreground events check for updates without reloading automatically', async () => {
+    const app = await openApp();
+    assert.equal(app.updateCalls, 1);
+    app.events.visibilitychange();
+    await new Promise(resolve => setImmediate(resolve));
+    assert.equal(app.updateCalls, 2);
+    app.windowEvents.pageshow();
+    await new Promise(resolve => setImmediate(resolve));
+    assert.equal(app.updateCalls, 3);
 });

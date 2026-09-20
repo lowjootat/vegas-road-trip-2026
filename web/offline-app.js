@@ -5,6 +5,7 @@
     let updating = false;
     let checking = 0;
     let updateFailed = false;
+    let updateCheck;
     async function storageProtected() {
         try {
             return await navigator.storage?.persisted?.() === true;
@@ -72,6 +73,19 @@
             if (['installed', 'activated', 'redundant'].includes(worker.state)) refreshStatus();
         });
     }
+    function checkForUpdate() {
+        if (!registration || registration.installing || registration.waiting || navigator.onLine === false) {
+            return Promise.resolve();
+        }
+        if (updateCheck) return updateCheck;
+        updateCheck = registration.update()
+            .catch(() => { updateFailed = true; })
+            .finally(async () => {
+                updateCheck = null;
+                await refreshStatus();
+            });
+        return updateCheck;
+    }
     async function start() {
         show('Saving for offline use…');
         updateFailed = false;
@@ -79,7 +93,7 @@
             registration = await navigator.serviceWorker.register('./sw.js', { scope: './', updateViaCache: 'none' });
             registration.onupdatefound = () => watch(registration.installing);
             watch(registration.installing);
-            if (!registration.installing) await registration.update();
+            await checkForUpdate();
             if (navigator.serviceWorker.controller && !registration.installing && !registration.waiting && !await checkController()) {
                 await checkController('REPAIR_OFFLINE');
             }
@@ -96,9 +110,9 @@
         if (updating) location.reload();
         else refreshStatus();
     });
-    window.addEventListener('online', start);
-    window.addEventListener('pageshow', refreshStatus);
-    document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshStatus(); });
+    window.addEventListener('online', () => { void checkForUpdate(); });
+    window.addEventListener('pageshow', () => { void checkForUpdate(); });
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) void checkForUpdate(); });
     void requestStorageProtection();
     await start();
 })();
