@@ -37,6 +37,12 @@
 .item.is-now .card{border:2px solid var(--green);background:#f0f6ec}
 .item.is-now:after{content:"";position:absolute;z-index:2;left:7px;top:var(--now-marker-top,var(--timeline-node-y));width:14px;height:14px;border:3px solid #fffdf8;border-radius:50%;background:var(--green);box-shadow:0 0 0 2px var(--green),0 2px 7px #1c1b1766;transform:translate(-50%,-50%);pointer-events:none}
 .now-marker{display:block;color:var(--green);font-size:12px;font-weight:850;margin-bottom:6px}
+.solar-marker{position:absolute;z-index:3;left:7px;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--card);font-size:19px;line-height:1;transform:translate(-50%,-50%)}
+.solar-marker[data-label]{cursor:help}
+.solar-marker[data-label]:is(:hover,:focus):after{content:attr(data-label);position:absolute;left:30px;top:50%;transform:translateY(-50%);width:max-content;max-width:min(260px,65vw);padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);box-shadow:0 2px 8px #0002;color:#8d6123;font:750 12px/1.4 system-ui,sans-serif}
+.solar-marker:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.solar-boundary{position:relative;min-height:30px;padding:5px 0 12px 28px;color:#8d6123;font-size:12px;font-weight:750}
+.solar-boundary .solar-marker{top:14px}
 .clock-test{margin:12px 0;padding:12px 14px;border:1px solid var(--line);border-radius:14px;font-size:13px}
 .clock-test summary{cursor:pointer}.clock-test p{margin:10px 0}
 .clock-test form{display:flex;align-items:center;flex-wrap:wrap;gap:10px}

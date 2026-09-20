@@ -78,6 +78,21 @@ def validate(data):
             ],
             day["id"],
         )
+        solar_kinds = []
+        for event in day.get("solarEvents", []):
+            require(event, ["kind", "at", "text"], day["id"])
+            if event["kind"] not in ("sunrise", "sunset"):
+                raise ValueError(f'{day["id"]}: unknown solar event kind')
+            solar_kinds.append(event["kind"])
+            if not isinstance(event["at"], str) or not re.fullmatch(
+                r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}", event["at"]
+            ):
+                raise ValueError(f'{day["id"]}: solar event requires an explicit UTC offset')
+            datetime.fromisoformat(event["at"])
+            if event["at"][:10] != day["date"]:
+                raise ValueError(f'{day["id"]}: solar event date must match its day')
+        if len(solar_kinds) != len(set(solar_kinds)):
+            raise ValueError(f'{day["id"]}: duplicate solar event kind')
         for activity in day["activities"]:
             require(
                 activity,
@@ -267,6 +282,38 @@ def map_data(data):
     ]
 
 
+def solar_markers(day):
+    scheduled = sorted(
+        (a for a in day["activities"] if "startAt" in a),
+        key=lambda a: datetime.fromisoformat(a["startAt"]),
+    )
+    inside, before, after = {}, {}, ""
+    for event in day.get("solarEvents", []):
+        instant = datetime.fromisoformat(event["at"])
+        emoji = "🌄" if event["kind"] == "sunrise" else "🌅"
+        label = escape(event["text"].removeprefix(emoji).lstrip())
+        active = next((a for a in scheduled if
+            datetime.fromisoformat(a["startAt"]) <= instant < datetime.fromisoformat(a["endAt"])
+        ), None)
+        if active:
+            start = datetime.fromisoformat(active["startAt"])
+            end = datetime.fromisoformat(active["endAt"])
+            progress = (instant - start) / (end - start)
+            marker = (
+                f'<span class="solar-marker" role="img" tabindex="0" aria-label="{label}" '
+                f'data-label="{label}" style="top:calc(var(--timeline-node-y) + {progress * 100:.6g}% + {progress * 10:.6g}px)">{emoji}</span>'
+            )
+            inside[active["id"]] = inside.get(active["id"], "") + marker
+        else:
+            marker = f'<div class="solar-boundary"><span class="solar-marker" role="img" aria-label="{event["kind"]}">{emoji}</span><span>{label}</span></div>'
+            upcoming = next((a for a in scheduled if datetime.fromisoformat(a["startAt"]) > instant), None)
+            if upcoming:
+                before[upcoming["id"]] = before.get(upcoming["id"], "") + marker
+            else:
+                after += marker
+    return inside, before, after
+
+
 def render(data, photo_id, assets):
     validate(data)
 
@@ -279,7 +326,9 @@ def render(data, photo_id, assets):
         if day.get("photo"):
             content += photo(day["photo"], "photo")
         content += '<div class="timeline">'
+        solar_inside, solar_before, solar_after = solar_markers(day)
         for a in day["activities"]:
+            content += solar_before.get(a["id"], "")
             description = escape(a["description"])
             if a.get("descriptionLead"):
                 description = (
@@ -299,7 +348,8 @@ def render(data, photo_id, assets):
                 content += (
                     '<div class="links">' + links(a["links"], data["places"]) + "</div>"
                 )
-            content += "</div></article>"
+            content += "</div>" + solar_inside.get(a["id"], "") + "</article>"
+        content += solar_after
         content += (
             "</div>"
             + "".join(

@@ -301,7 +301,19 @@
         "url": "https://traveltipzone.com/wp-content/uploads/zion-national-park-to-bryce-canyon-ultimate-road-trip-guide-with-travel-tips-zion4-1200x800.jpg",
         "alt": "Zion canyon landscape",
         "caption": "Zion · Canyon Overlook priority"
-      }
+      },
+      "solarEvents": [
+        {
+          "kind": "sunrise",
+          "at": "2026-09-25T06:31:00-07:00",
+          "text": "🌄 Sunrise ≈06:31 UTC−7"
+        },
+        {
+          "kind": "sunset",
+          "at": "2026-09-25T19:25:00-06:00",
+          "text": "🌅 Sunset ≈19:20–19:30 UTC−6"
+        }
+      ]
     },
     {
       "id": "sat",
@@ -588,7 +600,19 @@
         "url": "https://www.nps.gov/glca/planyourvisit/images/PHOTO_LYL24_WW_20240928_013a.jpg?maxwidth=1300&autorotate=false",
         "alt": "Lone Rock rising above Lake Powell beside Lone Rock Beach",
         "caption": "Lone Rock Beach · evening at camp"
-      }
+      },
+      "solarEvents": [
+        {
+          "kind": "sunrise",
+          "at": "2026-09-26T07:22:00-06:00",
+          "text": "🌄 Sunrise ≈07:22 UTC−6"
+        },
+        {
+          "kind": "sunset",
+          "at": "2026-09-26T18:16:00-07:00",
+          "text": "🌅 Sunset ≈18:16 UTC−7 Arizona time · 19:16 UTC−6 local Utah time"
+        }
+      ]
     },
     {
       "id": "sun",
@@ -1091,7 +1115,19 @@
         "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UPPER%20ANTELOPE%20CANYON%20%2C%20PAGE%2C%20ARIZONA%20-%20LIGHTBEAMS.jpg?width=1400",
         "alt": "Upper Antelope Canyon sandstone and light beams",
         "caption": "Upper Antelope Canyon · booked"
-      }
+      },
+      "solarEvents": [
+        {
+          "kind": "sunrise",
+          "at": "2026-09-27T06:17:00-07:00",
+          "text": "🌄 Sunrise ≈06:17 UTC−7"
+        },
+        {
+          "kind": "sunset",
+          "at": "2026-09-27T18:17:00-07:00",
+          "text": "🌅 Sunset ≈18:17 UTC−7 · stay until about 18:50"
+        }
+      ]
     },
     {
       "id": "mon",
@@ -1104,7 +1140,7 @@
         {
           "id": "mon-1-long-jim-loop",
           "location": "Long Jim Loop",
-          "time": "05:30–06:00 UTC−7",
+          "time": "06:30–07:00 UTC−7",
           "duration": "30 min",
           "description": "No-cook breakfast, break camp and final gear check. Pack for the full day; there is no midday return.",
           "categories": [],
@@ -1118,13 +1154,13 @@
           "placeIds": [
             "long-jim-loop"
           ],
-          "startAt": "2026-09-28T05:30:00-07:00",
-          "endAt": "2026-09-28T06:00:00-07:00"
+          "startAt": "2026-09-28T06:30:00-07:00",
+          "endAt": "2026-09-28T07:00:00-07:00"
         },
         {
           "id": "mon-2-long-jim-visitor-center",
           "location": "Long Jim → Visitor Center",
-          "time": "06:00–06:25 UTC−7",
+          "time": "07:00–07:25 UTC−7",
           "duration": "25 min",
           "description": "Drive to the Visitor Center and park.",
           "categories": [
@@ -1140,15 +1176,15 @@
           "placeIds": [
             "grand-canyon-visitor-center"
           ],
-          "startAt": "2026-09-28T06:00:00-07:00",
-          "endAt": "2026-09-28T06:25:00-07:00"
+          "startAt": "2026-09-28T07:00:00-07:00",
+          "endAt": "2026-09-28T07:25:00-07:00"
         },
         {
           "id": "mon-3-visitor-center-south-kaibab",
           "location": "Visitor Center → South Kaibab",
-          "time": "06:25–06:55 UTC−7",
+          "time": "07:25–07:55 UTC−7",
           "duration": "30 min",
-          "description": "Toilets and gear check, then aim to board the eastbound Orange shuttle around 06:40 UTC−7 for South Kaibab Trailhead.\n\nBuses run every 20 min from 06:00 to 09:00 UTC−7. Allow 10–15 min for the ride; aim to start hiking by 06:55 UTC−7.",
+          "description": "Toilets and gear check, then aim to board the eastbound Orange shuttle around 07:40 UTC−7 for South Kaibab Trailhead.\n\nBuses run every 20 min from 06:00 to 09:00 UTC−7. Allow 10–15 min for the ride; aim to start hiking by 07:55 UTC−7.",
           "categories": [],
           "links": [
             {
@@ -1158,13 +1194,13 @@
             }
           ],
           "solarNote": "🌄 Sunrise ≈06:20 UTC−7",
-          "startAt": "2026-09-28T06:25:00-07:00",
-          "endAt": "2026-09-28T06:55:00-07:00"
+          "startAt": "2026-09-28T07:25:00-07:00",
+          "endAt": "2026-09-28T07:55:00-07:00"
         },
         {
           "id": "mon-4-south-kaibab-trail",
           "location": "South Kaibab Trail",
-          "time": "06:55–10:25 UTC−7",
+          "time": "07:55–11:25 UTC−7",
           "duration": "3 hr 30 min",
           "description": "Hike to Ooh Aah Point and Cedar Ridge, then return. Cedar Ridge is about 4.8 km return with roughly 340 m of ascent; use Ooh Aah as the shorter turnaround if heat or pace warrants, and allow more time uphill. Current access is reported open through Tip-Off with closure below it. Carry all required water—the trail has none and the trailhead filling station is currently reported off—and recheck conditions and water status before travel.",
           "categories": [
@@ -1190,15 +1226,15 @@
           "placeIds": [
             "south-kaibab-trail"
           ],
-          "startAt": "2026-09-28T06:55:00-07:00",
-          "endAt": "2026-09-28T10:25:00-07:00"
+          "startAt": "2026-09-28T07:55:00-07:00",
+          "endAt": "2026-09-28T11:25:00-07:00"
         },
         {
           "id": "mon-south-kaibab-visitor-center-shuttle",
           "location": "South Kaibab → Visitor Center",
-          "time": "10:25–11:10 UTC−7",
+          "time": "11:25–12:10 UTC−7",
           "duration": "45 min",
-          "description": "Around 10:25 UTC−7, take the Orange shuttle from South Kaibab Trailhead back to the Visitor Center.\n\nBuses run every 15 min after 09:00 UTC−7, returning via Yaki Point and Pipe Creek Vista. Estimate 20–25 min riding back, plus waiting time. This block includes a small queue buffer.",
+          "description": "Around 11:25 UTC−7, take the Orange shuttle from South Kaibab Trailhead back to the Visitor Center.\n\nBuses run every 15 min after 09:00 UTC−7, returning via Yaki Point and Pipe Creek Vista. Estimate 20–25 min riding back, plus waiting time. This block includes a small queue buffer.",
           "categories": [],
           "links": [
             {
@@ -1207,13 +1243,13 @@
               "url": "https://www.nps.gov/grca/planyourvisit/kaibab-orange-route.htm"
             }
           ],
-          "startAt": "2026-09-28T10:25:00-07:00",
-          "endAt": "2026-09-28T11:10:00-07:00"
+          "startAt": "2026-09-28T11:25:00-07:00",
+          "endAt": "2026-09-28T12:10:00-07:00"
         },
         {
           "id": "mon-5-visitor-center-mather-point",
           "location": "Visitor Center / Mather Point",
-          "time": "11:10–13:30 UTC−7",
+          "time": "12:10–14:30 UTC−7",
           "duration": "2 hr 20 min",
           "description": "Recovery snack and toilets, then walk about five minutes from the Visitor Center plaza to Mather Point. The westbound Orange shuttle is an alternative, with a short ride plus waiting time.\n\nVisit Mather Point, buy lunch and dinner sandwiches inside the park, eat lunch and rest. Allow time within this block for the trip to your chosen shop; Village Market is at Market Plaza, not Mather Point.",
           "categories": [],
@@ -1237,15 +1273,15 @@
           "placeIds": [
             "mather-point"
           ],
-          "startAt": "2026-09-28T11:10:00-07:00",
-          "endAt": "2026-09-28T13:30:00-07:00"
+          "startAt": "2026-09-28T12:10:00-07:00",
+          "endAt": "2026-09-28T14:30:00-07:00"
         },
         {
           "id": "mon-6-visitor-center-hopi-point",
           "location": "Visitor Center → Hopi Point",
-          "time": "13:30–14:45 UTC−7",
+          "time": "14:30–15:45 UTC−7",
           "duration": "1 hr 15 min",
-          "description": "Around 13:30 UTC−7, take the Blue Route to Hermit Road Transfer, then the westbound Red Route to Hopi Point.\n\nNPS transit data estimates about 19 min riding the Blue Route and 10 min on the Red Route, roughly 30 min on buses before waits and the transfer. Both routes run every 12 min at this time; transfer queues can take two or three buses.\n\nAim to reach Hopi Point by 14:45 UTC−7. Arrival by 15:00 UTC−7 is still workable if queues are long; use some of the following viewpoint time.",
+          "description": "Around 14:30 UTC−7, take the Blue Route to Hermit Road Transfer, then the westbound Red Route to Hopi Point.\n\nNPS transit data estimates about 19 min riding the Blue Route and 10 min on the Red Route, roughly 30 min on buses before waits and the transfer. Both routes run every 12 min at this time; transfer queues can take two or three buses.\n\nAim to reach Hopi Point by 15:45 UTC−7. Arrival by 16:00 UTC−7 is still workable if queues are long; use some of the following viewpoint time.",
           "categories": [],
           "links": [
             {
@@ -1267,13 +1303,13 @@
           "placeIds": [
             "hopi-point"
           ],
-          "startAt": "2026-09-28T13:30:00-07:00",
-          "endAt": "2026-09-28T14:45:00-07:00"
+          "startAt": "2026-09-28T14:30:00-07:00",
+          "endAt": "2026-09-28T15:45:00-07:00"
         },
         {
           "id": "mon-7-hopi-mohave",
           "location": "Hopi → Mohave",
-          "time": "14:45–16:35 UTC−7",
+          "time": "15:45–17:35 UTC−7",
           "duration": "1 hr 50 min",
           "description": "Enjoy Hopi Point, then walk about 0.8 mi / 1.3 km along the Rim Trail to Mohave Point with photo stops.",
           "categories": [],
@@ -1298,14 +1334,14 @@
             "hopi-point",
             "mohave-point"
           ],
-          "startAt": "2026-09-28T14:45:00-07:00",
-          "endAt": "2026-09-28T16:35:00-07:00"
+          "startAt": "2026-09-28T15:45:00-07:00",
+          "endAt": "2026-09-28T17:35:00-07:00"
         },
         {
           "id": "mon-8-mohave-point",
           "location": "Mohave Point",
-          "time": "16:35–18:25 UTC−7",
-          "duration": "1 hr 50 min",
+          "time": "17:35–18:25 UTC−7",
+          "duration": "50 min",
           "description": "Relax, eat the store-bought dinner sandwich and stay through sunset.",
           "categories": [
             "meal"
@@ -1326,7 +1362,7 @@
           "placeIds": [
             "mohave-point"
           ],
-          "startAt": "2026-09-28T16:35:00-07:00",
+          "startAt": "2026-09-28T17:35:00-07:00",
           "endAt": "2026-09-28T18:25:00-07:00"
         },
         {
@@ -1388,7 +1424,7 @@
       "notes": [
         {
           "title": "Full-day carry",
-          "text": "Take water, layers, headlamps and charging needs for the full day. After buying lunch and dinner sandwiches inside the park, carry the dinner sandwich through sunset. The exact Long Jim pullout is not held while the SUV is away; finding another available pullout may delay setup. Orange starts at 06:00 and runs about every 20 minutes until 09:00. Allow 10–15 minutes from the Visitor Center to South Kaibab. Red starts at 08:00; eastbound return normally stops at Mohave, Pima, Powell and Hermits Rest, with a final sweep about one hour after sunset—recheck and do not rely on the final bus. Keep the Hermit Road scope to Hopi → walk to Mohave → sunset; do not add The Abyss or Monument Creek Vista unless well ahead and willing to shorten Hopi/Mohave. If the 07:00 Orange shuttle is caught instead of 06:40, absorb the delay inside the late-morning buffer rather than cutting sunset. Budget the sunset return until 20:00, the camp drive until 20:30 and reset/sleep until 21:00.",
+          "text": "Take water, layers, headlamps and charging needs for the full day. After buying lunch and dinner sandwiches inside the park, carry the dinner sandwich through sunset. The exact Long Jim pullout is not held while the SUV is away; finding another available pullout may delay setup. Orange starts at 06:00 and runs about every 20 minutes until 09:00. Allow 10–15 minutes from the Visitor Center to South Kaibab. Red starts at 08:00; eastbound return normally stops at Mohave, Pima, Powell and Hermits Rest, with a final sweep about one hour after sunset—recheck and do not rely on the final bus. Keep the Hermit Road scope to Hopi → walk to Mohave → sunset; do not add The Abyss or Monument Creek Vista unless well ahead and willing to shorten Hopi/Mohave. If the 08:00 Orange shuttle is caught instead of 07:40, absorb the delay inside the late-morning buffer rather than cutting sunset. Budget the sunset return until 20:00, the camp drive until 20:30 and reset/sleep until 21:00. If hot weather is forecast, return to the earlier 05:30 wake-up and 06:55 hike start to reduce heat exposure on the climb back.",
           "links": []
         }
       ],
@@ -1396,7 +1432,19 @@
         "url": "https://images.squarespace-cdn.com/content/v1/55e23b29e4b04dab6ca8b2a2/1597268157408-2JEAPL6VUJ8PF30TUL6F/P1014055.jpg",
         "alt": "South Kaibab Trail at Grand Canyon",
         "caption": "South Kaibab · morning hike"
-      }
+      },
+      "solarEvents": [
+        {
+          "kind": "sunrise",
+          "at": "2026-09-28T06:20:00-07:00",
+          "text": "🌄 Sunrise ≈06:20 UTC−7"
+        },
+        {
+          "kind": "sunset",
+          "at": "2026-09-28T18:15:00-07:00",
+          "text": "🌅 Sunset ≈18:15 UTC−7"
+        }
+      ]
     },
     {
       "id": "tue",
@@ -1528,6 +1576,18 @@
           "title": "If delayed",
           "text": "Remove sightseeing and discretionary breaks first. Keep fuel, car return and airport buffer. There is no Hoover Dam detour in the base plan. Keep the 07:30 camp departure and use the Vegas buffer to finish Alamo handover by 14:00–14:15 and reach the terminal by 15:00. Check live traffic before leaving; depart earlier if the forecast or airline requirements call for it.",
           "links": []
+        }
+      ],
+      "solarEvents": [
+        {
+          "kind": "sunrise",
+          "at": "2026-09-29T06:21:00-07:00",
+          "text": "🌄 Sunrise ≈06:21 UTC−7"
+        },
+        {
+          "kind": "sunset",
+          "at": "2026-09-29T18:25:00-07:00",
+          "text": "🌅 Sunset ≈18:25 UTC−7 · after departure"
         }
       ]
     }
@@ -1956,7 +2016,7 @@
         "mon"
       ],
       "dayLabel": "Mon 28",
-      "time": "06:00–06:55 · return around 20:00 UTC−7",
+      "time": "07:00–07:55 · return around 20:00 UTC−7",
       "summary": "Park, use the toilet and join the early Orange shuttle queue.",
       "defaultDayId": "mon"
     },
@@ -1968,7 +2028,7 @@
         "mon"
       ],
       "dayLabel": "Mon 28",
-      "time": "06:55–10:25 UTC−7",
+      "time": "07:55–11:25 UTC−7",
       "summary": "Ooh Aah Point and Cedar Ridge; carry all required water.",
       "defaultDayId": "mon"
     },
@@ -1980,7 +2040,7 @@
         "mon"
       ],
       "dayLabel": "Mon 28",
-      "time": "11:10–13:30 UTC−7",
+      "time": "12:10–14:30 UTC−7",
       "summary": "Scenic stop inside the Visitor Center recovery and lunch block.",
       "defaultDayId": "mon"
     },
@@ -1992,7 +2052,7 @@
         "mon"
       ],
       "dayLabel": "Mon 28",
-      "time": "14:45–16:35 UTC−7",
+      "time": "15:45–17:35 UTC−7",
       "summary": "West-rim panorama and the start of the Rim Trail walk.",
       "defaultDayId": "mon"
     },
@@ -2004,7 +2064,7 @@
         "mon"
       ],
       "dayLabel": "Mon 28",
-      "time": "16:35–18:25 UTC−7",
+      "time": "17:35–18:25 UTC−7",
       "summary": "Dinner sandwich and sunset before the shuttle return.",
       "defaultDayId": "mon"
     },

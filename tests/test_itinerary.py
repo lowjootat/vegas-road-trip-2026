@@ -7,7 +7,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from render_itinerary import load_data, render, validate, inline_json, map_data
+from render_itinerary import load_data, render, validate, inline_json, map_data, solar_markers
 
 
 class Articles(HTMLParser):
@@ -58,6 +58,37 @@ class ItineraryTests(unittest.TestCase):
             for field in ["description", "descriptionLead", "duration", "solarNote"]:
                 if field in activity:
                     self.assertIn(activity[field], actual[activity["id"]])
+
+    def test_solar_markers_use_elapsed_time_and_explicit_offsets(self):
+        day = self.data["days"][1]
+        inside, before, after = solar_markers(day)
+        self.assertIn("74.4444%", inside["sat-2-watchman-the-grotto"])
+        self.assertIn("32.9032%", inside["sat-18-lone-rock-beach"])
+        self.assertFalse(before)
+        self.assertFalse(after)
+        day["solarEvents"][1]["at"] = "2026-09-26T19:16:00-06:00"
+        self.assertEqual(solar_markers(day)[0], inside)
+
+    def test_solar_events_outside_schedule_have_timed_boundary_rows(self):
+        source = self.render()
+        self.assertEqual(source.count('class="solar-marker"'), 10)
+        self.assertEqual(source.count('class="solar-boundary"'), 4)
+        _, before, _ = solar_markers(self.data["days"][0])
+        self.assertIn("06:31", before["fri-1-las-vegas"])
+        _, before, _ = solar_markers(self.data["days"][3])
+        self.assertIn("06:20", before["mon-1-long-jim-loop"])
+        _, _, after = solar_markers(self.data["days"][-1])
+        self.assertIn("18:25", after)
+        self.assertIn("after departure", after)
+
+    def test_solar_events_reject_missing_offsets_and_wrong_dates(self):
+        event = self.data["days"][0]["solarEvents"][0]
+        event["at"] = "2026-09-25T06:31:00"
+        with self.assertRaisesRegex(ValueError, "explicit UTC offset"):
+            validate(self.data)
+        event["at"] = "2026-09-26T06:31:00-07:00"
+        with self.assertRaisesRegex(ValueError, "date must match"):
+            validate(self.data)
 
     def test_insert_and_reorder_keeps_metadata_attached(self):
         before = Articles(self.render()).articles
