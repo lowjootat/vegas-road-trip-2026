@@ -26,7 +26,8 @@ const buttons = ids.map((id, index) => ({
 }));
 const bar = {
     getBoundingClientRect: () => ({ left: 0, right: barWidth }),
-    scrollBy: ({ left }) => { scrollLeft = Math.max(0, Math.min(642 - barWidth, scrollLeft + left)); }
+    get scrollLeft() { return scrollLeft; },
+    set scrollLeft(value) { scrollLeft = Math.max(0, Math.min(642 - barWidth, value)); }
 };
 const source = fs.readFileSync(path.join(__dirname, '../web/itinerary.js'), 'utf8');
 vm.runInNewContext(source.slice(0, source.indexOf('const mapPlaces')), {
