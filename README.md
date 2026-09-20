@@ -42,7 +42,7 @@ node --test tests/*.cjs
 python3 scripts/build_offline.py --site-dir dist
 ```
 
-Without `--site-dir`, the builder only produces the portable HTML. Missing image, Leaflet, and geography assets download into `.offline-cache`; later builds reuse them. Leaflet’s license and photo credits are embedded. Natural Earth geography is public domain.
+Without `--site-dir`, the builder only produces the portable HTML. The committed `web/offline-assets.json` contains the verified photos, Leaflet, and regional geography. Existing content builds without downloading assets. When adding a new photo, build locally and commit the updated bundle with the source changes. New source downloads go into `.offline-cache`. `--refresh-assets` regenerates the bundle from those source assets. CI uses `--bundled-only` and fails with a clear error if an asset is missing. Leaflet’s license and photo credits are embedded. Natural Earth geography is public domain.
 
 For local website testing, serve `dist` on localhost rather than opening its `index.html` as a file:
 
