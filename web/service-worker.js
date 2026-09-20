@@ -17,10 +17,16 @@ async function saveAssets() {
 }
 
 self.addEventListener('install', event => {
-    event.waitUntil(saveAssets().catch(async error => {
-        await caches.delete(CACHE);
-        throw error;
-    }));
+    event.waitUntil((async () => {
+        try {
+            await saveAssets();
+            // A verified cache is complete, so it is safe to replace the old worker.
+            await self.skipWaiting();
+        } catch (error) {
+            await caches.delete(CACHE);
+            throw error;
+        }
+    })());
 });
 
 self.addEventListener('activate', event => {
@@ -28,6 +34,16 @@ self.addEventListener('activate', event => {
         await self.clients.claim();
         const keys = await caches.keys();
         await Promise.all(keys.filter(key => key.startsWith(PREFIX) && key !== CACHE).map(key => caches.delete(key)));
+        // Reload pages still displaying the previous cached build. This avoids the
+        // cache-first worker serving stale inline CSS and JavaScript after refresh.
+        const root = new URL(self.registration.scope);
+        const windows = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+        await Promise.all(windows
+            .filter(client => {
+                const url = new URL(client.url);
+                return url.origin === root.origin && url.pathname.startsWith(root.pathname);
+            })
+            .map(client => client.navigate(client.url)));
     })());
 });
 
