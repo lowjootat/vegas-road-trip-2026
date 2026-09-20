@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Security-Policy" content="{{security_policy}}">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta name="description" content="{{description}}">
+<title>{{title}}</title>
+<meta content="#171713" name="theme-color"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171713'/%3E%3Cpath d='M10 49 25 20l8 15 7-11 14 25H10Z' fill='%23f4b860'/%3E%3Ccircle cx='47' cy='16' r='6' fill='%23f7e5ba'/%3E%3C/svg%3E" rel="icon" type="image/svg+xml"/>
+<style>{{leaflet_css}}</style>
+<style>{{styles}}</style>
+</head>
+<body data-hero="{{hero_id}}">
+<header class="hero"><div class="heroin"><div class="eyebrow">{{eyebrow}}</div><h1>{{heading}}</h1><p>{{introduction}}</p></div></header>
+<main class="shell">
+<div class="facts">{{facts}}</div>
+<div aria-label="Itinerary emoji key" class="activity-key"><span>🍕 Meal</span><span>🥾 Hike</span><span>🚗 Drive</span><span>🌄 Sunrise</span><span>🌅 Sunset</span></div>
+<section aria-labelledby="map-title" class="route-map">
+<div class="map-head"><div><h2 id="map-title">Offline trip overview</h2><p>Tap a stop for timing and details. Dashed lines connect stops; they are not driving directions. External links require internet.</p></div><div aria-label="Filter map by day" class="map-filters">{{filters}}</div></div>
+<div aria-label="Interactive map of itinerary locations" id="trip-map" role="application"><div class="map-error">The map could not load. All stop details are available in the day plans below.</div></div>
+</section>
+<div class="daywrap"><nav class="daybar" aria-label="Jump to day">{{navigation}}</nav><div class="now-bar" hidden><span id="schedule-status"></span><button id="jump-now" type="button">Jump to now</button></div></div>
+{{days}}
+<details class="checklist"><summary>Before departure checklist</summary><div class="checks">{{checklist}}</div></details>
+<footer>{{footer}}</footer>
+</main>
+{{credits}}
+<script type="application/json" id="map-data">{{map_data}}</script>
+<script type="application/json" id="geography-data">{{geography_data}}</script>
+<script type="application/json" id="photo-data">{{photo_data}}</script>
+<script>{{leaflet_js}}</script>
+<script>{{interactions}}</script>
+<script type="application/json" id="schedule-data">{{schedule_data}}</script>
+<script>{{clock_script}}</script>
+</body>
+</html>
