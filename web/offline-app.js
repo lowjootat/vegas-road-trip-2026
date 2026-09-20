@@ -5,6 +5,22 @@
     let updating = false;
     let checking = 0;
     let updateFailed = false;
+    async function storageProtected() {
+        try {
+            return await navigator.storage?.persisted?.() === true;
+        } catch {
+            return false;
+        }
+    }
+    async function requestStorageProtection() {
+        const installed = navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+        try {
+            if (installed && !await storageProtected()) await navigator.storage?.persist?.();
+        } catch {
+            // Persistence is optional; cached files remain available without it.
+        }
+        await refreshStatus();
+    }
     function show(text, label, handler) {
         status.textContent = text;
         action.hidden = !label;
@@ -29,6 +45,8 @@
         const check = ++checking;
         try {
             const ready = await checkController();
+            const protectedStorage = ready && await storageProtected();
+            const readyLabel = protectedStorage ? 'Ready offline · Storage protected' : 'Ready offline';
             if (check !== checking || updating) return;
             if (registration?.waiting) {
                 show(ready ? 'Update available · Current version ready offline' : 'Update available', 'Update & reload', () => {
@@ -37,7 +55,7 @@
                     registration.waiting.postMessage({ type: 'ACTIVATE_UPDATE' });
                 });
             } else if (ready) {
-                show(updateFailed ? 'Ready offline · Update could not download' : 'Ready offline', updateFailed ? 'Retry update' : null, start);
+                show(updateFailed ? `${readyLabel} · Update could not download` : readyLabel, updateFailed ? 'Retry update' : null, start);
             } else if (registration?.installing || registration?.active?.state === 'activating') {
                 show('Saving for offline use…');
             } else {
@@ -81,5 +99,6 @@
     window.addEventListener('online', start);
     window.addEventListener('pageshow', refreshStatus);
     document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshStatus(); });
+    void requestStorageProtection();
     await start();
 })();
