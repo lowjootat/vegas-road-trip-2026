@@ -39,3 +39,59 @@ test('Lone Rock remains on Arizona time regardless of device timezone', () => {
     }
     if (original === undefined) delete process.env.TZ; else process.env.TZ = original;
 });
+
+test('test clock changes jump targets, ticks forward, and resets to device time', () => {
+    let deviceNow = Date.parse('2026-09-20T12:00:00-07:00');
+    let tick;
+    let scrolledTo;
+    const elements = new Map();
+    function element(id) {
+        if (!elements.has(id)) elements.set(id, {
+            textContent: '', value: '', hidden: false, events: {},
+            addEventListener(name, callback) { this.events[name] = callback; },
+            classList: { add() {}, remove() {} },
+            setAttribute() {}, removeAttribute() {}, remove() {},
+            querySelector() { return { prepend() {} }; },
+            scrollIntoView() { scrolledTo = id; }
+        });
+        return elements.get(id);
+    }
+    element('schedule-data').textContent = JSON.stringify(schedule);
+    const context = {
+        Date: class extends Date { static now() { return deviceNow; } },
+        document: {
+            hidden: false, getElementById: element, createElement: element,
+            querySelector: element, addEventListener() {}
+        },
+        window: { addEventListener() {} },
+        ResizeObserver: class { observe() {} },
+        setInterval(callback) { tick = callback; },
+        matchMedia: () => ({ matches: true })
+    };
+    require('node:vm').runInNewContext(fs.readFileSync(require('node:path').join(__dirname, '../web/current-time.js'), 'utf8'), context);
+    const jump = element('jump-now');
+    const status = element('schedule-status');
+    const apply = () => element('clock-test-form').events.submit({ preventDefault() {} });
+    assert.equal(element('clock-test-time').value, '2026-09-25T07:10');
+    apply();
+    assert.match(status.textContent, /^Test clock/);
+    assert.equal(jump.textContent, 'Jump to next');
+    jump.events.click();
+    assert.equal(scrolledTo, 'fri-1-las-vegas');
+    deviceNow += 5 * 60000;
+    tick();
+    assert.equal(jump.textContent, 'Jump to now');
+    element('clock-test-time').value = '2026-09-25T14:45';
+    apply();
+    assert.equal(jump.textContent, 'Jump to next');
+    jump.events.click();
+    assert.equal(scrolledTo, 'fri-6-zion');
+    element('clock-test-time').value = '2026-10-01T00:00';
+    apply();
+    assert.equal(jump.hidden, true);
+    element('clock-reset').events.click();
+    assert.equal(jump.hidden, false);
+    assert.doesNotMatch(status.textContent, /Test clock/);
+    jump.events.click();
+    assert.equal(scrolledTo, 'fri-1-las-vegas');
+});
