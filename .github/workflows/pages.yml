@@ -24,12 +24,7 @@ jobs:
       - run: python3 scripts/render_itinerary.py
       - run: python3 -m unittest discover -s tests -v
       - run: node --test tests/*.cjs
-      - uses: actions/cache@v4
-        with:
-          path: .offline-cache
-          key: itinerary-assets-${{ hashFiles('data/itinerary.json', 'scripts/build_offline.py') }}
-          restore-keys: itinerary-assets-
-      - run: python3 scripts/build_offline.py --site-dir dist
+      - run: python3 scripts/build_offline.py --bundled-only --site-dir dist
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
