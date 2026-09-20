@@ -32,8 +32,10 @@ if (typeof module !== 'undefined' && module.exports) {
     marker.className = 'now-marker';
     let currentArticle;
     let target;
+    let clockOffset = 0;
+    let testingClock = false;
     function updateClock() {
-        const now = Date.now();
+        const now = Date.now() + clockOffset;
         const state = scheduleState(schedule, now);
         target = state.target && document.getElementById(state.target.id);
         const article = state.kind === 'active' ? target : null;
@@ -60,11 +62,30 @@ if (typeof module !== 'undefined' && module.exports) {
         } else {
             status.textContent = 'Trip complete';
         }
+        if (testingClock) {
+            status.textContent = `Test clock · ${scheduleClock(now, '-07:00', true)} · ${status.textContent}`;
+        }
         jump.hidden = !target;
         jump.textContent = state.kind === 'active' ? 'Jump to now' : 'Jump to next';
     }
     if (schedule.length) {
         bar.hidden = false;
+        const testTime = document.getElementById('clock-test-time');
+        document.getElementById('clock-test').hidden = false;
+        testTime.value = new Date(Date.parse(schedule[0].startAt) - 5 * 60000 - 7 * 3600000).toISOString().slice(0, 16);
+        document.getElementById('clock-test-form').addEventListener('submit', event => {
+            event.preventDefault();
+            const timestamp = Date.parse(`${testTime.value}-07:00`);
+            if (!Number.isFinite(timestamp)) return;
+            clockOffset = timestamp - Date.now();
+            testingClock = true;
+            updateClock();
+        });
+        document.getElementById('clock-reset').addEventListener('click', () => {
+            clockOffset = 0;
+            testingClock = false;
+            updateClock();
+        });
         jump.addEventListener('click', () => target?.scrollIntoView({
             behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start'
         }));

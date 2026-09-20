@@ -12,15 +12,24 @@
 <style>{{styles}}</style>
 </head>
 <body data-hero="{{hero_id}}">
+<div class="daywrap"><div class="daycontrols"><nav class="daybar" aria-label="Jump to day">{{navigation}}</nav><div class="now-bar" hidden><span id="schedule-status"></span><button id="jump-now" type="button">Jump to now</button></div></div></div>
 <header class="hero"><div class="heroin"><div class="eyebrow">{{eyebrow}}</div><h1>{{heading}}</h1><p>{{introduction}}</p></div></header>
 <main class="shell">
 <div class="facts">{{facts}}</div>
-<div aria-label="Itinerary emoji key" class="activity-key"><span>🍕 Meal</span><span>🥾 Hike</span><span>🚗 Drive</span><span>🌄 Sunrise</span><span>🌅 Sunset</span></div>
 <section aria-labelledby="map-title" class="route-map">
-<div class="map-head"><div><h2 id="map-title">Offline trip overview</h2><p>Tap a stop for timing and details. Dashed lines connect stops; they are not driving directions. External links require internet.</p></div><div aria-label="Filter map by day" class="map-filters">{{filters}}</div></div>
+<div class="map-head"><div><h2 id="map-title">Map</h2></div><div aria-label="Filter map by day" class="map-filters">{{filters}}</div></div>
 <div aria-label="Interactive map of itinerary locations" id="trip-map" role="application"><div class="map-error">The map could not load. All stop details are available in the day plans below.</div></div>
 </section>
-<div class="daywrap"><nav class="daybar" aria-label="Jump to day">{{navigation}}</nav><div class="now-bar" hidden><span id="schedule-status"></span><button id="jump-now" type="button">Jump to now</button></div></div>
+<details class="clock-test" id="clock-test" hidden>
+<summary>Test clock</summary>
+<p>Choose a simulated time in UTC−7 (Las Vegas / Arizona). The clock keeps ticking. Reloading restores real time.</p>
+<form id="clock-test-form">
+<label for="clock-test-time">Test date and time · UTC−7</label>
+<input id="clock-test-time" type="datetime-local" required>
+<button type="submit">Use test time</button>
+<button id="clock-reset" type="button">Use real time</button>
+</form>
+</details>
 {{days}}
 <details class="checklist"><summary>Before departure checklist</summary><div class="checks">{{checklist}}</div></details>
 <footer>{{footer}}</footer>
