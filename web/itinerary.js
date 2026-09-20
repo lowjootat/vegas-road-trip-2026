@@ -27,13 +27,12 @@ function updateActiveDay() {
     const barBounds = daybar.getBoundingClientRect();
     const buttonBounds = button.getBoundingClientRect();
     if (buttonBounds.left < barBounds.left || buttonBounds.right > barBounds.right) {
-        // Scroll only the pill row so the page stays at the reader's position.
-        daybar.scrollBy({
-            left: buttonBounds.left < barBounds.left
-                ? buttonBounds.left - barBounds.left - 8
-                : buttonBounds.right - barBounds.right + 8,
-            behavior: 'auto'
-        });
+        // Assign scrollLeft directly: Safari can ignore ScrollToOptions on restored
+        // horizontal scrollers, leaving the active day clipped off-screen.
+        const delta = buttonBounds.left < barBounds.left
+            ? buttonBounds.left - barBounds.left - 8
+            : buttonBounds.right - barBounds.right + 8;
+        daybar.scrollLeft += delta;
     }
 }
 
@@ -45,7 +44,11 @@ function scheduleDayUpdate() {
 
 window.addEventListener('scroll', scheduleDayUpdate, { passive: true });
 window.addEventListener('resize', scheduleDayUpdate);
-window.addEventListener('pageshow', scheduleDayUpdate);
+window.addEventListener('pageshow', () => {
+    scheduleDayUpdate();
+    // Run once more after Safari restores nested scroll positions.
+    requestAnimationFrame(scheduleDayUpdate);
+});
 new ResizeObserver(scheduleDayUpdate).observe(document.querySelector('main'));
 scheduleDayUpdate();
 const mapPlaces = JSON.parse(document.getElementById("map-data").textContent);
