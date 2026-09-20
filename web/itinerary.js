@@ -32,7 +32,7 @@ function updateActiveDay() {
             left: buttonBounds.left < barBounds.left
                 ? buttonBounds.left - barBounds.left - 8
                 : buttonBounds.right - barBounds.right + 8,
-            behavior: 'instant'
+            behavior: 'auto'
         });
     }
 }
