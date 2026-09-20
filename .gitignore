@@ -1,0 +1,14 @@
+.DS_Store
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+.offline-cache/
+__pycache__/
+dist/
+node_modules/
+.browser-tests/
+Itinerary/
+Itinerary.xcodeproj/
+reports/
+.venv/
