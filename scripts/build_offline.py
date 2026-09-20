@@ -137,20 +137,29 @@ def build_site(result, destination):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--site-dir', type=Path, help='Also build an installable website in this directory')
+    parser.add_argument('--bundled-only', action='store_true', help='Build only from committed assets; never download')
+    parser.add_argument('--refresh-assets', action='store_true', help='Rebuild the committed bundle from source assets in the download cache')
     args = parser.parse_args()
+    bundle_path = ROOT / 'web/offline-assets.json'
+    bundle = json.loads(bundle_path.read_text()) if bundle_path.exists() and not args.refresh_assets else None
+    if args.bundled_only and not bundle:
+        parser.error('--bundled-only requires web/offline-assets.json and cannot use --refresh-assets')
     data = load_data()
-    leaflet_base = "https://unpkg.com/leaflet@1.9.4/"
-    license_text = fetch(leaflet_base + "LICENSE").decode()
-    css = fetch(leaflet_base + "dist/leaflet.css").decode()
-    css = re.sub(
-        r'url\((?:[\'"]?)(images/[^)\'\"]+)[\'\"]?\)',
-        lambda m: 'url("'
-        + data_url(fetch(leaflet_base + "dist/" + m[1]), "image/png")
-        + '")',
-        css,
-    )
-    js = fetch(leaflet_base + "dist/leaflet.js").decode()
-    js = re.sub(r"//# sourceMappingURL=.*", "", js)
+    if bundle:
+        license_text, css, js = (bundle[key] for key in ('leaflet_license', 'leaflet_css', 'leaflet_js'))
+    else:
+        leaflet_base = "https://unpkg.com/leaflet@1.9.4/"
+        license_text = fetch(leaflet_base + "LICENSE").decode()
+        css = fetch(leaflet_base + "dist/leaflet.css").decode()
+        css = re.sub(
+            r'url\((?:[\'"]?)(images/[^)\'\"]+)[\'\"]?\)',
+            lambda m: 'url("'
+            + data_url(fetch(leaflet_base + "dist/" + m[1]), "image/png")
+            + '")',
+            css,
+        )
+        js = fetch(leaflet_base + "dist/leaflet.js").decode()
+        js = re.sub(r"//# sourceMappingURL=.*", "", js)
     photos, photo_ids, credits = {}, {}, []
 
     def photo_id(photo):
@@ -159,13 +168,18 @@ def main():
         if canonical in photo_ids:
             return photo_ids[canonical]
         key = "photo" + str(len(photos))
-        original = Image.open(io.BytesIO(fetch(url)))
-        image = ImageOps.exif_transpose(original).convert("RGB")
-        image.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
-        encoded = io.BytesIO()
-        image.save(encoded, format="JPEG", quality=82, optimize=True, progressive=True)
-        Image.open(io.BytesIO(encoded.getvalue())).verify()
-        photos[key] = data_url(encoded.getvalue(), "image/jpeg")
+        if bundle and canonical in bundle['photos']:
+            photos[key] = bundle['photos'][canonical]
+        elif args.bundled_only:
+            raise ValueError(f'Photo missing from committed assets: {url}. Build locally and commit the updated asset bundle.')
+        else:
+            original = Image.open(io.BytesIO(fetch(url)))
+            image = ImageOps.exif_transpose(original).convert("RGB")
+            image.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
+            encoded = io.BytesIO()
+            image.save(encoded, format="JPEG", quality=82, optimize=True, progressive=True)
+            Image.open(io.BytesIO(encoded.getvalue())).verify()
+            photos[key] = data_url(encoded.getvalue(), "image/jpeg")
         photo_ids[canonical] = key
         credits.append({"id": key, "description": photo["alt"], "source": url})
         return key
@@ -177,7 +191,7 @@ def main():
             if activity.get("photo"):
                 photo_id(activity["photo"])
     photo_id(data["trip"]["hero"])
-    layers = {
+    layers = bundle['geography'] if bundle else {
         layer: geography(category, name, layer)
         for layer, category, name in [
             ("roads", "cultural", "ne_10m_roads_north_america"),
@@ -218,6 +232,13 @@ def main():
         },
     )
     output.write_text(result)
+    if not args.bundled_only:
+        bundle_path.write_text(json.dumps({
+            'leaflet_license': license_text, 'leaflet_css': css, 'leaflet_js': js,
+            'photos': {url: photos[key] for url, key in photo_ids.items()},
+            'geography': layers,
+        }, ensure_ascii=False, separators=(',', ':')) + '\n')
+    CACHE.mkdir(exist_ok=True)
     if args.site_dir:
         build_site(result, args.site_dir)
     (CACHE / "asset-manifest.json").write_text(
