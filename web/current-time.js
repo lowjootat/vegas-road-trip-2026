@@ -1,6 +1,13 @@
 function scheduleState(schedule, now) {
     const active = schedule.find(item => Date.parse(item.startAt) <= now && now < Date.parse(item.endAt));
-    if (active) return { kind: 'active', target: active, clockAt: active.startAt };
+    if (active) {
+        const start = Date.parse(active.startAt);
+        const end = Date.parse(active.endAt);
+        return {
+            kind: 'active', target: active, clockAt: active.startAt,
+            progress: Math.max(0, Math.min(1, (now - start) / (end - start)))
+        };
+    }
     const next = schedule.find(item => Date.parse(item.startAt) > now);
     if (next) {
         const previous = [...schedule].reverse().find(item => Date.parse(item.endAt) <= now);
@@ -43,6 +50,7 @@ if (typeof module !== 'undefined' && module.exports) {
             if (currentArticle) {
                 currentArticle.classList.remove('is-now');
                 currentArticle.removeAttribute('aria-current');
+                currentArticle.style.removeProperty('--now-marker-top');
             }
             marker.remove();
             if (article) {
@@ -53,6 +61,12 @@ if (typeof module !== 'undefined' && module.exports) {
             currentArticle = article;
         }
         if (state.kind === 'active') {
+            const progressPercent = state.progress * 100;
+            const gapProgress = state.progress * 10;
+            article.style.setProperty(
+                '--now-marker-top',
+                `calc(var(--timeline-node-y) + ${progressPercent}% + ${gapProgress}px)`
+            );
             marker.textContent = `Now · ${scheduleClock(now, state.clockAt)}`;
             status.textContent = `Scheduled now · ${state.target.location}`;
         } else if (state.kind === 'before') {

@@ -10,6 +10,16 @@ test('exact boundaries select the next activity, with an exclusive end', () => {
     assert.equal(at('2026-09-25T08:00:00-07:00').target.id, 'fri-uber-to-alamo');
     assert.equal(at('2026-09-29T18:00:00-07:00').kind, 'complete');
 });
+test('active progress tracks the current position within an activity', () => {
+    const hour = [{
+        id: 'hour', location: 'Test',
+        startAt: '2026-09-26T17:00:00-07:00',
+        endAt: '2026-09-26T18:00:00-07:00'
+    }];
+    assert.equal(scheduleState(hour, Date.parse('2026-09-26T17:00:00-07:00')).progress, 0);
+    assert.equal(scheduleState(hour, Date.parse('2026-09-26T17:30:00-07:00')).progress, 0.5);
+    assert.equal(scheduleState(hour, Date.parse('2026-09-26T17:45:00-07:00')).progress, 0.75);
+});
 test('before, gaps, overnight and completion do not invent an active activity', () => {
     assert.equal(at('2026-09-20T12:00:00-07:00').kind, 'before');
     const gap = at('2026-09-25T15:45:00-06:00');
@@ -50,6 +60,10 @@ test('test clock changes jump targets, ticks forward, and resets to device time'
             textContent: '', value: '', hidden: false, events: {},
             addEventListener(name, callback) { this.events[name] = callback; },
             classList: { add() {}, remove() {} },
+            style: {
+                setProperty(name, value) { this[name] = value; },
+                removeProperty(name) { delete this[name]; }
+            },
             setAttribute() {}, removeAttribute() {}, remove() {},
             querySelector() { return { prepend() {} }; },
             scrollIntoView() { scrolledTo = id; }
@@ -81,8 +95,16 @@ test('test clock changes jump targets, ticks forward, and resets to device time'
     deviceNow += 5 * 60000;
     tick();
     assert.equal(jump.textContent, 'Jump to now');
+    element('clock-test-time').value = '2026-09-26T08:45';
+    apply();
+    const active = scheduleState(schedule, Date.parse('2026-09-26T08:45:00-07:00')).target;
+    assert.equal(element(active.id).style['--now-marker-top'], 'calc(var(--timeline-node-y) + 50% + 5px)');
+    deviceNow += 60000;
+    tick();
+    assert.notEqual(element(active.id).style['--now-marker-top'], 'calc(var(--timeline-node-y) + 50% + 5px)');
     element('clock-test-time').value = '2026-09-25T14:45';
     apply();
+    assert.equal(element(active.id).style['--now-marker-top'], undefined);
     assert.equal(jump.textContent, 'Jump to next');
     jump.events.click();
     assert.equal(scrolledTo, 'fri-6-zion');
