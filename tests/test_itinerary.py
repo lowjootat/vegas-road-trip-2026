@@ -1,5 +1,6 @@
 import copy
 import json
+import re
 import sys
 import unittest
 from html.parser import HTMLParser
@@ -150,6 +151,19 @@ class ItineraryTests(unittest.TestCase):
         drive = next(item for item in schedule if item["id"] == "fri-3-las-vegas-zion")
         self.assertTrue(drive["startAt"].endswith("-07:00"))
         self.assertTrue(drive["endAt"].endswith("-06:00"))
+
+    def test_all_photos_are_available_in_committed_asset_bundle(self):
+        path = Path(__file__).resolve().parents[1] / "web/offline-assets.json"
+        bundle = json.loads(path.read_text())
+        photos = [self.data["trip"]["hero"]]
+        for day in self.data["days"]:
+            if "photo" in day:
+                photos.append(day["photo"])
+            photos.extend(a["photo"] for a in day["activities"] if "photo" in a)
+        for photo in photos:
+            canonical = re.sub(r"\?width=\d+$", "", photo["url"])
+            with self.subTest(url=canonical):
+                self.assertTrue(bundle["photos"][canonical].startswith("data:image/jpeg;base64,"))
 
 
 if __name__ == "__main__":
