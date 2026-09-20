@@ -19,6 +19,8 @@ A completed download displays **Ready offline**. When opened as an installed app
 
 ## Standalone HTML
 
+To test the jump buttons, expand **Test clock** below the day navigation. Choose a date and time in UTC−7 and tap **Use test time**. The default is five minutes before the trip starts. Try September 25 at 14:45 for a gap before the next activity, or 07:15 for an active activity. The simulated clock keeps ticking, and the status bar labels it **Test clock**. Tap **Use real time** or reload to remove the offset. This does not change your device clock or saved itinerary.
+
 Open `vegas-road-trip-2026.html` directly in a desktop browser. It includes its photos, map, scripts, and styles and requires no server or companion folder. The website also offers this file as a download. Checklist selections may not follow a moved file.
 
 ## Edit and build
