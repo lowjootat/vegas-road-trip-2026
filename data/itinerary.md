@@ -10,7 +10,7 @@ To change the trip, edit the authoritative JSON and rebuild with `python3 script
 
 - Description: A mobile-friendly timed car-camping itinerary from Las Vegas through Zion, Page and the Grand Canyon, 25–29 September 2026.
 
-- Status: 🏕️ Timed car-camping itinerary · updated 20 Sep 2026
+- Status: 🏕️ Timed car-camping itinerary · updated 21 Sep 2026
 
 - Introduction: Five days, two adults, one SUV — confirmed bookings, exact timing, scenic stops, campsites and a tappable route map.
 
@@ -24,7 +24,7 @@ To change the trip, edit the authoritative JSON and rebuild with `python3 script
 
 ## ✓ Core bookings confirmed
 
-Watchman Campground is booked for Friday night. The Tsé Bíghanílíní Upper Antelope Canyon tour is booked for Sunday 11:05–12:35; keep the 10:20 check-in target.
+Watchman Campground is booked for Friday night, and Desert View Campground is booked for Sunday night. The Tsé Bíghanílíní Upper Antelope Canyon tour is booked for Sunday 11:05–12:35; keep the 10:20 check-in target.
 
 ## Friday 25 Sep
 
@@ -588,7 +588,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Navigation label: Sun 27 · Antelope
 
-- Route: Lone Rock → Wahweap → Dam Overlook → Amphitheater → Upper Antelope → Desert View → Navajo Point → Yavapai sunset → Long Jim Loop
+- Route: Lone Rock → Wahweap → Dam Overlook → Amphitheater → Upper Antelope → Desert View → Navajo Point → Desert View Campground
 
 - Clock guidance: All listed times Arizona UTC−7
 
@@ -608,7 +608,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Timestamp: 2026-09-27T18:17:00-07:00
 
-- Guidance: 🌅 Sunset ≈18:17 UTC−7 · stay until about 18:50
+- Guidance: 🌅 Sunset ≈18:17 UTC−7
 
 ### Activities
 
@@ -902,17 +902,39 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Photo caption: Desert View
 
+#### Desert View Market &amp; Deli
+
+- Activity ID: sun-desert-view-market
+
+- Time: 16:25–16:45 UTC−7
+
+- Duration: 20 min
+
+- Start timestamp: 2026-09-27T16:25:00-07:00
+
+- End timestamp: 2026-09-27T16:45:00-07:00
+
+- Categories: meal
+
+- Place IDs: desert-view-market
+
+- Description: Buy dinner or any missing groceries before heading to Navajo Point. The deli is currently listed to close at 17:00 and the market later; recheck hours shortly before the trip. If you prefer, skip this stop and cook dinner at the campsite.
+
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Market+and+Deli%2C+Grand+Canyon+National+Park%2C+Arizona>)
+
+- reference link: [NPS hours and services](<https://www.nps.gov/places/000/desert-view-market-deli.htm>)
+
 #### Desert View → Navajo Point
 
 - Activity ID: sun-10-desert-view-lipan
 
-- Time: 16:25–16:35 UTC−7
+- Time: 16:45–16:55 UTC−7
 
 - Duration: 10 min
 
-- Start timestamp: 2026-09-27T16:25:00-07:00
+- Start timestamp: 2026-09-27T16:45:00-07:00
 
-- End timestamp: 2026-09-27T16:35:00-07:00
+- End timestamp: 2026-09-27T16:55:00-07:00
 
 - Categories: drive
 
@@ -926,19 +948,19 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-11-lipan-point
 
-- Time: 16:35–16:50 UTC−7
+- Time: 16:55–17:15 UTC−7
 
-- Duration: 15 min
+- Duration: 20 min
 
-- Start timestamp: 2026-09-27T16:35:00-07:00
+- Start timestamp: 2026-09-27T16:55:00-07:00
 
-- End timestamp: 2026-09-27T16:50:00-07:00
+- End timestamp: 2026-09-27T17:15:00-07:00
 
 - Categories: 
 
 - Place IDs: navajo-point
 
-- Description: Enjoy views of the Colorado River, canyon and Desert View Watchtower. Leave by 16:50; shorten or skip this stop if delayed to protect Yavapai sunset.
+- Description: Enjoy views of the Colorado River, canyon and Desert View Watchtower. Leave by 17:15 so there is plenty of daylight to settle into the booked campground.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Navajo+Point+Grand+Canyon+National+Park>)
 
@@ -948,135 +970,55 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Photo caption: Navajo Point · NPS / T. Karlovetz
 
-#### Navajo Point → Village Market
+#### Navajo Point → Desert View Campground
 
-- Activity ID: sun-12-lipan-village-market
+- Activity ID: sun-navajo-desert-view-campground
 
-- Time: 16:50–17:35 UTC−7
+- Time: 17:15–17:30 UTC−7
 
-- Duration: 45 min
+- Duration: 15 min
 
-- Start timestamp: 2026-09-27T16:50:00-07:00
+- Start timestamp: 2026-09-27T17:15:00-07:00
 
-- End timestamp: 2026-09-27T17:35:00-07:00
-
-- Categories: drive
-
-- Place IDs: village-market
-
-- Description: Drive west along Desert View Drive to Grand Canyon Village Market &amp; Deli at Market Plaza. Allow 45 minutes including parking.
-
-- map link: [Google Maps](<https://maps.app.goo.gl/KFkNZozxLgAXqx1H7>)
-
-#### Grand Canyon Village Market
-
-- Activity ID: sun-13-grand-canyon-village-market
-
-- Time: 17:35–17:55 UTC−7
-
-- Duration: 20 min
-
-- Start timestamp: 2026-09-27T17:35:00-07:00
-
-- End timestamp: 2026-09-27T17:55:00-07:00
-
-- Categories: 
-
-- Place IDs: village-market
-
-- Description: Pick up dinner sandwiches; recheck Sunday opening hours shortly before the trip.
-
-- map link: [Saved pin](<https://maps.app.goo.gl/KFkNZozxLgAXqx1H7>)
-
-#### Village Market → Yavapai
-
-- Activity ID: sun-14-village-market-yavapai
-
-- Time: 17:55–18:05 UTC−7
-
-- Duration: 10 min
-
-- Start timestamp: 2026-09-27T17:55:00-07:00
-
-- End timestamp: 2026-09-27T18:05:00-07:00
+- End timestamp: 2026-09-27T17:30:00-07:00
 
 - Categories: drive
 
-- Description: Drive to Yavapai Point and park.
+- Place IDs: desert-view-campground
 
-#### Yavapai Point
+- Description: Drive back east to the booked Desert View Campground and check in at the reserved site.
 
-- Activity ID: sun-15-yavapai-point
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%2C+Grand+Canyon+National+Park%2C+Arizona>)
 
-- Time: 18:05–18:50 UTC−7
+#### Desert View Campground
 
-- Duration: 45 min
+- Activity ID: sun-desert-view-campground
 
-- Start timestamp: 2026-09-27T18:05:00-07:00
+- Time: 17:30–20:30 UTC−7
 
-- End timestamp: 2026-09-27T18:50:00-07:00
+- Duration: 3 hr
+
+- Start timestamp: 2026-09-27T17:30:00-07:00
+
+- End timestamp: 2026-09-27T20:30:00-07:00
 
 - Categories: meal
 
-- Place IDs: yavapai-point
+- Place IDs: desert-view-campground
 
-- Description: Eat the sandwich dinner, watch sunset and stay for roughly 30 minutes of afterglow. Plan to leave around 18:50. Bring layers and headlamps for the walk back to the car.
+- Description: Set up at the booked campsite in daylight. Cook dinner at camp or eat the food picked up from the nearby Desert View Market, then clean up and prepare Monday’s food, water and hiking gear. Sleep around 20:30–20:45.
 
-- Solar note: 🌅 Sunset ≈18:17 UTC−7 · stay until about 18:50
+- Solar note: 🌅 Sunset ≈18:17 UTC−7
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Yavapai+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%2C+Grand+Canyon+National+Park%2C+Arizona>)
 
-- reference link: [September sunset times](<https://www.timeanddate.com/sun/@z-us-86023?month=9&year=2026>)
-
-- Photo reference: [Visitors watch sunset over the Grand Canyon from Yavapai Point](<https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Grand_Canyon_National_Park-_Sunset_from_Yavapai_Point_9686_-_48432147886.jpg/1280px-Grand_Canyon_National_Park-_Sunset_from_Yavapai_Point_9686_-_48432147886.jpg>)
-
-- Photo caption: Yavapai Point · NPS / Michael Quinn
-
-#### Yavapai → Long Jim Loop
-
-- Activity ID: sun-16-yavapai-long-jim-loop
-
-- Time: 18:50–19:20 UTC−7
-
-- Duration: 30 min
-
-- Start timestamp: 2026-09-27T18:50:00-07:00
-
-- End timestamp: 2026-09-27T19:20:00-07:00
-
-- Categories: drive
-
-- Place IDs: long-jim-loop
-
-- Description: Drive to the saved camp area in the dark. Allow 30 minutes for the drive and arrival contingency; finding an available pullout may take longer.
-
-- map link: [Saved pin](<https://maps.app.goo.gl/K9aw2AQz7tweSrMg6?g_st=ic>)
-
-#### Long Jim Loop
-
-- Activity ID: sun-17-long-jim-loop
-
-- Time: 19:20–20:45 UTC−7
-
-- Duration: 1 hr 25 min
-
-- Start timestamp: 2026-09-27T19:20:00-07:00
-
-- End timestamp: 2026-09-27T20:45:00-07:00
-
-- Categories: 
-
-- Place IDs: long-jim-loop
-
-- Description: Use an available pullout, set up with headlamps and prep Monday’s food, water and hiking gear. The saved pin does not reserve a space; campsite searching may delay setup. Sleep around 20:45–21:00.
-
-- map link: [Saved camp pin](<https://maps.app.goo.gl/K9aw2AQz7tweSrMg6?g_st=ic>)
+- reference link: [NPS campground details](<https://www.nps.gov/grca/planyourvisit/desert-view-campground.htm>)
 
 ### Day notes
 
 #### Protect the booking
 
-Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amphitheater, 10:20 tour check-in and 11:05 tour departure; shorten overlooks or skip the amphitheater if delayed. After the tour, eat a quick lunch in Page and leave town by 13:15. Allow 2 hours 45 minutes from Page to Desert View. Lipan Point and its access road are closed during the trip, so visit Navajo Point instead. If the afternoon runs late, shorten or skip Navajo first, then shorten Desert View; protect sandwich pickup and Yavapai sunset. Yavapai is intentionally shortened to 18:05–18:50, still covering sunset and roughly 30 minutes of afterglow. There is no Sunday Walmart stop.
+Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amphitheater, 10:20 tour check-in and 11:05 tour departure; shorten overlooks or skip the amphitheater if delayed. After the tour, eat a quick lunch in Page and leave town by 13:15. Allow 2 hours 45 minutes from Page to Desert View. Lipan Point and its access road are closed during the trip, so visit Navajo Point instead. If the afternoon runs late, shorten or skip Navajo first, then shorten Desert View. Yavapai Point and the Geology Museum move to Monday afternoon. Desert View Campground is booked for Sunday night; pick up dinner at the nearby market before its deli closes or cook at camp. There is no Sunday Walmart stop.
 
 - reference link: [NPS Lipan closure](<https://www.nps.gov/grca/learn/news/lipan-point-closure-2026.htm>)
 
@@ -1088,7 +1030,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Navigation label: Mon 28 · Grand Canyon
 
-- Route: South Kaibab → Mather Point → Hermit Road sunset
+- Route: Desert View Campground → South Kaibab → Mather Point → Yavapai Geology Museum → Hermit Road sunset → Long Jim Loop
 
 - Clock guidance: Arizona UTC−7
 
@@ -1112,35 +1054,35 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 ### Activities
 
-#### Long Jim Loop
+#### Desert View Campground
 
 - Activity ID: mon-1-long-jim-loop
 
-- Time: 06:30–07:00 UTC−7
+- Time: 06:15–06:45 UTC−7
 
 - Duration: 30 min
 
-- Start timestamp: 2026-09-28T06:30:00-07:00
+- Start timestamp: 2026-09-28T06:15:00-07:00
 
-- End timestamp: 2026-09-28T07:00:00-07:00
+- End timestamp: 2026-09-28T06:45:00-07:00
 
 - Categories: 
 
-- Place IDs: long-jim-loop
+- Place IDs: desert-view-campground
 
 - Description: No-cook breakfast, break camp and final gear check. Pack for the full day; there is no midday return.
 
-- map link: [Saved camp pin](<https://maps.app.goo.gl/K9aw2AQz7tweSrMg6?g_st=ic>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%2C+Grand+Canyon+National+Park%2C+Arizona>)
 
-#### Long Jim → Visitor Center
+#### Desert View Campground → Visitor Center
 
 - Activity ID: mon-2-long-jim-visitor-center
 
-- Time: 07:00–07:25 UTC−7
+- Time: 06:45–07:25 UTC−7
 
-- Duration: 25 min
+- Duration: 40 min
 
-- Start timestamp: 2026-09-28T07:00:00-07:00
+- Start timestamp: 2026-09-28T06:45:00-07:00
 
 - End timestamp: 2026-09-28T07:25:00-07:00
 
@@ -1148,7 +1090,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Place IDs: grand-canyon-visitor-center
 
-- Description: Drive to the Visitor Center and park.
+- Description: Drive west along Desert View Drive to the Visitor Center and park.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Grand+Canyon+Visitor+Center%2C+Arizona>)
 
@@ -1224,21 +1166,19 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Activity ID: mon-5-visitor-center-mather-point
 
-- Time: 12:10–14:30 UTC−7
+- Time: 12:10–13:10 UTC−7
 
-- Duration: 2 hr 20 min
+- Duration: 1 hr
 
 - Start timestamp: 2026-09-28T12:10:00-07:00
 
-- End timestamp: 2026-09-28T14:30:00-07:00
+- End timestamp: 2026-09-28T13:10:00-07:00
 
-- Categories: 
+- Categories: meal
 
 - Place IDs: mather-point
 
-- Description: Recovery snack and toilets, then walk about five minutes from the Visitor Center plaza to Mather Point. The westbound Orange shuttle is an alternative, with a short ride plus waiting time.
-    
-    Visit Mather Point, buy lunch and dinner sandwiches inside the park, eat lunch and rest. Allow time within this block for the trip to your chosen shop; Village Market is at Market Plaza, not Mather Point.
+- Description: Recovery snack and toilets, then walk about five minutes from the Visitor Center plaza to Mather Point. Eat lunch and rest, and buy a portable dinner inside the park before continuing. The westbound Orange shuttle is an alternative to walking, with a short ride plus waiting time.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mather+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
 
@@ -1247,6 +1187,34 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 - Photo reference: [Clouds and fog drifting through the Grand Canyon below Mather Point](<https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Grand_Canyon_National_Park_Watching_Clouds_from_Mather_Point_%2815773877478%29.jpg/1280px-Grand_Canyon_National_Park_Watching_Clouds_from_Mather_Point_%2815773877478%29.jpg>)
 
 - Photo caption: Mather Point · NPS / Michael Quinn
+
+#### Yavapai Point &amp; Geology Museum
+
+- Activity ID: sun-15-yavapai-point
+
+- Time: 13:10–14:30 UTC−7
+
+- Duration: 1 hr 20 min
+
+- Start timestamp: 2026-09-28T13:10:00-07:00
+
+- End timestamp: 2026-09-28T14:30:00-07:00
+
+- Categories: hike
+
+- Place IDs: yavapai-point
+
+- Description: Continue about 0.7 mi / 1.1 km along the Rim Trail from Mather Point, or use the Orange shuttle. Visit Yavapai Point and the Geology Museum, then return to the Visitor Center by shuttle in time to leave for Hopi Point. The museum is currently listed as open daily 08:00–19:00; recheck before the trip.
+
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Yavapai+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+
+- reference link: [NPS museum details](<https://www.nps.gov/places/000/yavapai-geology-museum.htm>)
+
+- reference link: [NPS shuttle schedule](<https://www.nps.gov/grca/planyourvisit/kaibab-orange-route.htm>)
+
+- Photo reference: [Visitors watch sunset over the Grand Canyon from Yavapai Point](<https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Grand_Canyon_National_Park-_Sunset_from_Yavapai_Point_9686_-_48432147886.jpg/1280px-Grand_Canyon_National_Park-_Sunset_from_Yavapai_Point_9686_-_48432147886.jpg>)
+
+- Photo caption: Yavapai Point · NPS / Michael Quinn
 
 #### Visitor Center → Hopi Point
 
@@ -1392,7 +1360,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 #### Full-day carry
 
-Take water, layers, headlamps and charging needs for the full day. After buying lunch and dinner sandwiches inside the park, carry the dinner sandwich through sunset. The exact Long Jim pullout is not held while the SUV is away; finding another available pullout may delay setup. Orange starts at 06:00 and runs about every 20 minutes until 09:00. Allow 10–15 minutes from the Visitor Center to South Kaibab. Red starts at 08:00; eastbound return normally stops at Mohave, Pima, Powell and Hermits Rest, with a final sweep about one hour after sunset—recheck and do not rely on the final bus. Keep the Hermit Road scope to Hopi → walk to Mohave → sunset; do not add The Abyss or Monument Creek Vista unless well ahead and willing to shorten Hopi/Mohave. If the 08:00 Orange shuttle is caught instead of 07:40, absorb the delay inside the late-morning buffer rather than cutting sunset. Budget the sunset return until 19:25, the camp drive until 19:55 and reset/sleep until 20:25. If hot weather is forecast, return to the earlier 05:30 wake-up and 06:55 hike start to reduce heat exposure on the climb back.
+Take water, layers, headlamps and charging needs for the full day. After buying lunch and a portable dinner inside the park, carry dinner through sunset. The exact Long Jim pullout is not held while the SUV is away; finding an available pullout may delay setup. Orange starts at 06:00 and runs about every 20 minutes until 09:00. Allow 10–15 minutes from the Visitor Center to South Kaibab. Use the midday block for Mather Point, Yavapai Point and the Geology Museum, returning to the Visitor Center by 14:30. Red starts at 08:00; eastbound return normally stops at Mohave, Pima, Powell and Hermits Rest, with a final sweep about one hour after sunset—recheck and do not rely on the final bus. Keep the Hermit Road scope to Hopi → walk to Mohave → sunset; do not add The Abyss or Monument Creek Vista unless well ahead and willing to shorten Hopi/Mohave. If the 08:00 Orange shuttle is caught instead of 07:40, absorb the delay inside the late-morning buffer rather than cutting sunset. Budget the sunset return until 19:25, the camp drive until 19:55 and reset/sleep until 20:25. If hot weather is forecast, return to the earlier 05:30 wake-up and 06:55 hike start to reduce heat exposure on the climb back.
 
 ## Tuesday 29 Sep
 
@@ -1806,59 +1774,27 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Sun 27
 
-- Time: 16:35–16:50 UTC−7
+- Time: 16:55–17:15 UTC−7
 
-- Summary: Colorado River and Watchtower views. Replaces closed Lipan Point; shorten or skip if delayed.
+- Summary: Colorado River and Watchtower views. Replaces closed Lipan Point; leave in time for daylight camp setup.
 
-### 18. Village Market
+### 18. Desert View Campground
 
-- Stop ID: village-market
+- Stop ID: desert-view-campground
 
-- Place ID: village-market
+- Place ID: desert-view-campground
 
-- Day IDs: sun
-
-- Default day ID: sun
-
-- Day label: Sun 27
-
-- Time: 17:35–17:55 UTC−7
-
-- Summary: Pick up dinner sandwiches before Yavapai sunset.
-
-### 19. Yavapai Point
-
-- Stop ID: yavapai-point
-
-- Place ID: yavapai-point
-
-- Day IDs: sun
+- Day IDs: sun, mon
 
 - Default day ID: sun
 
-- Day label: Sun 27
+- Day label: Sun 27 · Mon 28
 
-- Time: 18:05–18:50 UTC−7
+- Time: Booked Sunday night
 
-- Summary: Sandwich dinner, sunset around 18:17 and roughly 30 minutes of afterglow; leave around 18:50.
+- Summary: Set up in daylight, eat dinner at camp or buy food from the nearby Desert View Market, then leave at 06:45 Monday.
 
-### 20. Long Jim Loop
-
-- Stop ID: long-jim-loop
-
-- Place ID: long-jim-loop
-
-- Day IDs: sun, mon, tue
-
-- Default day ID: sun
-
-- Day label: Sun 27 · Mon 28 · Tue 29
-
-- Time: Two-night camp
-
-- Summary: Saved dispersed-camping area at 35.976970, −112.126680. Arrive Sunday around 19:20 and Monday around 19:55; an available pullout is not guaranteed.
-
-### 21. Grand Canyon Visitor Center
+### 19. Grand Canyon Visitor Center
 
 - Stop ID: grand-canyon-visitor-center
 
@@ -1870,11 +1806,11 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Mon 28
 
-- Time: 07:00–07:55 · return around 19:25 UTC−7
+- Time: 06:45–07:55 · return around 19:25 UTC−7
 
 - Summary: Park, use the toilet and join the early Orange shuttle queue.
 
-### 22. South Kaibab Trail
+### 20. South Kaibab Trail
 
 - Stop ID: south-kaibab-trail
 
@@ -1890,7 +1826,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Ooh Aah Point and Cedar Ridge; carry all required water.
 
-### 23. Mather Point
+### 21. Mather Point
 
 - Stop ID: mather-point
 
@@ -1902,11 +1838,27 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Mon 28
 
-- Time: 12:10–14:30 UTC−7
+- Time: 12:10–13:10 UTC−7
 
-- Summary: Scenic stop inside the Visitor Center recovery and lunch block.
+- Summary: Scenic stop, recovery and lunch before continuing to Yavapai Point.
 
-### 24. Hopi Point
+### 22. Yavapai Point
+
+- Stop ID: yavapai-point
+
+- Place ID: yavapai-point
+
+- Day IDs: mon
+
+- Default day ID: mon
+
+- Day label: Mon 28
+
+- Time: 13:10–14:30 UTC−7
+
+- Summary: Yavapai Point and the Geology Museum after Mather Point and lunch.
+
+### 23. Hopi Point
 
 - Stop ID: hopi-point
 
@@ -1922,7 +1874,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: West-rim panorama and the start of the Rim Trail walk.
 
-### 25. Mohave Point
+### 24. Mohave Point
 
 - Stop ID: mohave-point
 
@@ -1937,6 +1889,22 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 - Time: 17:35–18:25 UTC−7
 
 - Summary: Dinner sandwich and sunset before the shuttle return.
+
+### 25. Long Jim Loop
+
+- Stop ID: long-jim-loop
+
+- Place ID: long-jim-loop
+
+- Day IDs: mon, tue
+
+- Default day ID: mon
+
+- Day label: Mon 28 · Tue 29
+
+- Time: Monday night camp
+
+- Summary: Saved dispersed-camping area at 35.976970, −112.126680. Arrive Monday around 19:55; an available pullout is not guaranteed.
 
 ### 26. Alamo · Harry Reid airport rental center
 
@@ -2131,6 +2099,26 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 - Longitude: -111.8262
 
 - [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%2C+Grand+Canyon+National+Park%2C+Arizona>)
+
+### Desert View Market &amp; Deli
+
+- Place ID: desert-view-market
+
+- Latitude: 36.0418
+
+- Longitude: -111.8267
+
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Market+and+Deli%2C+Grand+Canyon+National+Park%2C+Arizona>)
+
+### Desert View Campground
+
+- Place ID: desert-view-campground
+
+- Latitude: 36.0384
+
+- Longitude: -111.8226
+
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%2C+Grand+Canyon+National+Park%2C+Arizona>)
 
 ### Lipan Point
 

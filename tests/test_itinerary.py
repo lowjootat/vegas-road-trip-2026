@@ -72,11 +72,11 @@ class ItineraryTests(unittest.TestCase):
     def test_solar_events_outside_schedule_have_timed_boundary_rows(self):
         source = self.render()
         self.assertEqual(source.count('class="solar-marker"'), 10)
-        self.assertEqual(source.count('class="solar-boundary"'), 4)
+        self.assertEqual(source.count('class="solar-boundary"'), 3)
         _, before, _ = solar_markers(self.data["days"][0])
         self.assertIn("06:31", before["fri-1-las-vegas"])
-        _, before, _ = solar_markers(self.data["days"][3])
-        self.assertIn("06:20", before["mon-1-long-jim-loop"])
+        inside, _, _ = solar_markers(self.data["days"][3])
+        self.assertIn("06:20", inside["mon-1-long-jim-loop"])
         _, _, after = solar_markers(self.data["days"][-1])
         self.assertIn("18:25", after)
         self.assertIn("after departure", after)
@@ -177,7 +177,12 @@ class ItineraryTests(unittest.TestCase):
         start = source.index('<script type="application/json" id="schedule-data">')
         encoded = source[start:].split('>', 1)[1].split('</script>', 1)[0]
         schedule = json.loads(encoded)
-        self.assertEqual(len(schedule), 60)
+        expected_count = sum(
+            activity["time"] != "Optional"
+            for day in self.data["days"]
+            for activity in day["activities"]
+        )
+        self.assertEqual(len(schedule), expected_count)
         self.assertNotIn("fri-5-parus-trail", [item["id"] for item in schedule])
         drive = next(item for item in schedule if item["id"] == "fri-3-las-vegas-zion")
         self.assertTrue(drive["startAt"].endswith("-07:00"))
