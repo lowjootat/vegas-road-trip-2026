@@ -2,6 +2,10 @@
 
 `itinerary.json` is the authoritative trip content. Read it directly when planning or changing the trip. No HTML knowledge is needed. The generated HTML is for viewing and sharing.
 
+`itinerary.md` is the generated text reference for agents. It includes the trip content, stable IDs, explicit timestamps, place links, photo references, and checklist defaults. Edit the JSON rather than the Markdown. The offline builder regenerates both the Markdown and HTML; commit both outputs with source changes. The Markdown link on the itinerary opens the raw file on GitHub and requires internet.
+
+To regenerate only the Markdown, run `python3 scripts/render_markdown.py`. Run `python3 scripts/render_markdown.py --check` to check freshness without writing files. CI runs this check before building and publishing.
+
 ## Structure
 
 - `trip` holds dates, titles, introduction, booking notice, clock facts, hero photo, and footer credits. `mapHeading` is the initial map overview title.

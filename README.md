@@ -60,7 +60,7 @@ The public repository contains the web source, data, tests, build scripts, and g
 
 The `Publish itinerary` GitHub Actions workflow runs validation and tests, builds `dist`, and deploys only that directory to GitHub Pages after changes to `main`. It can also run manually from Actions. Repository Settings → Pages must use **GitHub Actions** as its source.
 
-Rebuild the standalone HTML when editing and include it with the source changes. The workflow rebuilds the published website from source. Changes to page content, app assets, or the worker generate a new offline cache version. Asset hashes prevent incomplete deployments from replacing a working offline copy.
+Rebuild the standalone HTML when editing and include it and the generated `data/itinerary.md` with the source changes. The builder generates this Markdown reference for agents from the same JSON. The page links to its raw GitHub URL below the raw JSON link. To generate only Markdown, run `python3 scripts/render_markdown.py`; CI checks freshness with `python3 scripts/render_markdown.py --check` before publishing. The workflow rebuilds the published website from source. Changes to page content, app assets, or the worker generate a new offline cache version. Asset hashes prevent incomplete deployments from replacing a working offline copy.
 
 Use the personal GitHub account `lowjootat` for publication. This is a public website and repository.
 

@@ -11,6 +11,7 @@ import urllib.request
 import zipfile
 
 from render_itinerary import load_data, render, inline_json
+from render_markdown import render_markdown, OUTPUT as MARKDOWN_OUTPUT
 from pathlib import Path
 
 import shapefile
@@ -232,6 +233,7 @@ def main():
         },
     )
     output.write_text(result)
+    MARKDOWN_OUTPUT.write_text(render_markdown(data), encoding="utf-8")
     if not args.bundled_only:
         bundle_path.write_text(json.dumps({
             'leaflet_license': license_text, 'leaflet_css': css, 'leaflet_js': js,
