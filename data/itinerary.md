@@ -1332,21 +1332,21 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Activity ID: mon-9-mohave-visitor-center
 
-- Time: 18:25–20:00 UTC−7
+- Time: 18:25–19:25 UTC−7
 
-- Duration: 1 hr 35 min
+- Duration: 1 hr
 
 - Start timestamp: 2026-09-28T18:25:00-07:00
 
-- End timestamp: 2026-09-28T20:00:00-07:00
+- End timestamp: 2026-09-28T19:25:00-07:00
 
 - Categories: 
 
-- Description: Around 18:25 UTC−7, board an eastbound Red shuttle at Mohave Point to Hermit Road Transfer, then take the Blue Route back to the Visitor Center.
+- Description: Around 18:25 UTC−7, board an eastbound Red shuttle at Mohave Point to Hermit Road Transfer, then transfer to the Blue Route for the Visitor Center.
     
-    Allow about one hour on the buses plus waiting and transfer time. Budget 95 minutes overall for sunset queues; faster connections mean an earlier return.
+    Plan on roughly 10–15 min riding the Red Route, up to about 12 min waiting for each bus, and around 20 min on the Blue Route. A normal connection should take about 35–50 min total; this 60-minute block keeps a modest buffer for post-sunset queues.
     
-    Red buses run every 12 minutes until sunset, with a final return sweep about one hour after sunset. Blue buses run every 12 minutes until 19:00, then every 15 minutes until 21:00. Aim to reach the Visitor Center by 20:00; do not rely on the final Red bus.
+    Red buses run every 12 minutes until sunset, with a final return sweep about one hour after sunset. Blue buses run every 12 minutes until 19:00, then every 15 minutes until 21:00. Aim to reach the Visitor Center by 19:25; do not rely on the final Red bus.
 
 - reference link: [NPS Blue Route](<https://www.nps.gov/grca/planyourvisit/village-blue-route.htm>)
 
@@ -1356,13 +1356,13 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Activity ID: mon-10-visitor-center-long-jim-loop
 
-- Time: 20:00–20:30 UTC−7
+- Time: 19:25–19:55 UTC−7
 
 - Duration: 30 min
 
-- Start timestamp: 2026-09-28T20:00:00-07:00
+- Start timestamp: 2026-09-28T19:25:00-07:00
 
-- End timestamp: 2026-09-28T20:30:00-07:00
+- End timestamp: 2026-09-28T19:55:00-07:00
 
 - Categories: drive
 
@@ -1376,13 +1376,13 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Activity ID: mon-11-long-jim-loop
 
-- Time: 20:30–21:00 UTC−7
+- Time: 19:55–20:25 UTC−7
 
 - Duration: 30 min
 
-- Start timestamp: 2026-09-28T20:30:00-07:00
+- Start timestamp: 2026-09-28T19:55:00-07:00
 
-- End timestamp: 2026-09-28T21:00:00-07:00
+- End timestamp: 2026-09-28T20:25:00-07:00
 
 - Categories: 
 
@@ -1392,7 +1392,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 #### Full-day carry
 
-Take water, layers, headlamps and charging needs for the full day. After buying lunch and dinner sandwiches inside the park, carry the dinner sandwich through sunset. The exact Long Jim pullout is not held while the SUV is away; finding another available pullout may delay setup. Orange starts at 06:00 and runs about every 20 minutes until 09:00. Allow 10–15 minutes from the Visitor Center to South Kaibab. Red starts at 08:00; eastbound return normally stops at Mohave, Pima, Powell and Hermits Rest, with a final sweep about one hour after sunset—recheck and do not rely on the final bus. Keep the Hermit Road scope to Hopi → walk to Mohave → sunset; do not add The Abyss or Monument Creek Vista unless well ahead and willing to shorten Hopi/Mohave. If the 08:00 Orange shuttle is caught instead of 07:40, absorb the delay inside the late-morning buffer rather than cutting sunset. Budget the sunset return until 20:00, the camp drive until 20:30 and reset/sleep until 21:00. If hot weather is forecast, return to the earlier 05:30 wake-up and 06:55 hike start to reduce heat exposure on the climb back.
+Take water, layers, headlamps and charging needs for the full day. After buying lunch and dinner sandwiches inside the park, carry the dinner sandwich through sunset. The exact Long Jim pullout is not held while the SUV is away; finding another available pullout may delay setup. Orange starts at 06:00 and runs about every 20 minutes until 09:00. Allow 10–15 minutes from the Visitor Center to South Kaibab. Red starts at 08:00; eastbound return normally stops at Mohave, Pima, Powell and Hermits Rest, with a final sweep about one hour after sunset—recheck and do not rely on the final bus. Keep the Hermit Road scope to Hopi → walk to Mohave → sunset; do not add The Abyss or Monument Creek Vista unless well ahead and willing to shorten Hopi/Mohave. If the 08:00 Orange shuttle is caught instead of 07:40, absorb the delay inside the late-morning buffer rather than cutting sunset. Budget the sunset return until 19:25, the camp drive until 19:55 and reset/sleep until 20:25. If hot weather is forecast, return to the earlier 05:30 wake-up and 06:55 hike start to reduce heat exposure on the climb back.
 
 ## Tuesday 29 Sep
 
@@ -1856,7 +1856,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Time: Two-night camp
 
-- Summary: Saved dispersed-camping area at 35.976970, −112.126680. Arrive Sunday around 19:20 and Monday around 20:30; an available pullout is not guaranteed.
+- Summary: Saved dispersed-camping area at 35.976970, −112.126680. Arrive Sunday around 19:20 and Monday around 19:55; an available pullout is not guaranteed.
 
 ### 21. Grand Canyon Visitor Center
 
@@ -1870,7 +1870,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Mon 28
 
-- Time: 07:00–07:55 · return around 20:00 UTC−7
+- Time: 07:00–07:55 · return around 19:25 UTC−7
 
 - Summary: Park, use the toilet and join the early Orange shuttle queue.
 
