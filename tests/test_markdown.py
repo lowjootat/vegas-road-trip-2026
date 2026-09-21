@@ -1,4 +1,5 @@
 import copy
+from html.parser import HTMLParser
 import sys
 import tempfile
 import unittest
@@ -83,9 +84,54 @@ class MarkdownTests(unittest.TestCase):
                 self.assertEqual(stale.exception.code, 1)
                 self.assertEqual(path.read_text(), "stale")
 
-    def test_template_places_markdown_link_immediately_after_json(self):
+    def test_template_places_html_link_immediately_after_json(self):
         template = (markdown.ROOT / "web/template.html").read_text()
         lines = template.splitlines()
         index = next(i for i, line in enumerate(lines) if "Itinerary data (raw JSON)" in line)
-        self.assertIn("Itinerary for agents (Markdown)", lines[index + 1])
-        self.assertIn(markdown.SOURCE_URL.replace(".json", ".md"), lines[index + 1])
+        self.assertIn("Itinerary for agents (HTML)", lines[index + 1])
+        self.assertIn("https://lowjootat.github.io/vegas-road-trip-2026/itinerary-for-agents.html", lines[index + 1])
+
+    def test_html_contains_source_content_in_semantic_elements(self):
+        class Document(HTMLParser):
+            def __init__(self, source):
+                super().__init__()
+                self.tags, self.text, self.links = [], [], []
+                self.feed(source)
+
+            def handle_starttag(self, tag, attrs):
+                self.tags.append(tag)
+                if tag == 'a':
+                    self.links.append(dict(attrs)['href'])
+
+            def handle_data(self, value):
+                self.text.append(value)
+
+        source = markdown.render_agent_html(self.data)
+        doc = Document(source)
+        text = ''.join(doc.text)
+        for tag in ('main', 'h1', 'h2', 'h3', 'h4', 'ul', 'li', 'a'):
+            self.assertIn(tag, doc.tags)
+        for tag in ('script', 'img', 'iframe'):
+            self.assertNotIn(tag, doc.tags)
+        positions = []
+        for day in self.data['days']:
+            self.assertIn(day['clockGuidance'], text)
+            for activity in day['activities']:
+                positions.append(text.index('Activity ID: ' + activity['id'] + '\n'))
+                for key in ('time', 'duration', 'description', 'startAt', 'endAt'):
+                    if key in activity:
+                        self.assertIn(activity[key], text)
+        self.assertEqual(positions, sorted(positions))
+        for place in self.data['places'].values():
+            self.assertIn(place['mapsUrl'], doc.links)
+        self.assertNotIn('{{body}}', source)
+
+    def test_html_escapes_source_text_and_attributes(self):
+        self.data['trip']['title'] = '<script>alert("test")</script>'
+        self.data['days'][0]['activities'][0]['description'] = '<img src=x onerror=alert(1)> & text'
+        self.data['places']['las-vegas']['mapsUrl'] = 'https://example.com/?x="quoted"&y=1'
+        source = markdown.render_agent_html(self.data)
+        self.assertNotIn('<script>', source)
+        self.assertNotIn('<img', source)
+        self.assertIn('&lt;img src=x onerror=alert(1)&gt; &amp; text', source)
+        self.assertIn('href="https://example.com/?x=&quot;quoted&quot;&amp;y=1"', source)

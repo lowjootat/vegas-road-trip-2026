@@ -11,7 +11,7 @@ import urllib.request
 import zipfile
 
 from render_itinerary import load_data, render, inline_json
-from render_markdown import render_markdown, OUTPUT as MARKDOWN_OUTPUT
+from render_markdown import render_markdown, render_agent_html, OUTPUT as MARKDOWN_OUTPUT
 from pathlib import Path
 
 import shapefile
@@ -92,7 +92,7 @@ def geography(category, name, layer):
     return {"type": "FeatureCollection", "features": features}
 
 
-def build_site(result, destination):
+def build_site(result, destination, data):
     destination.mkdir(parents=True, exist_ok=True)
     hosted = result.replace(
         "img-src data:; font-src data:; connect-src 'none';",
@@ -111,6 +111,7 @@ def build_site(result, destination):
     hosted = hosted.replace('</body>', '<script>' + (ROOT / 'web/offline-app.js').read_text() + '</script></body>')
     (destination / 'index.html').write_text(hosted)
     (destination / 'vegas-road-trip-2026.html').write_text(result)
+    (destination / 'itinerary-for-agents.html').write_text(render_agent_html(data), encoding='utf-8')
     manifest = {
         'id': './', 'name': 'Vegas Road Trip 2026', 'short_name': 'Vegas Trip',
         'start_url': './', 'scope': './', 'display': 'standalone',
@@ -125,7 +126,7 @@ def build_site(result, destination):
         drawing.polygon([(int(x*scale), int(y*scale)) for x, y in [(10,49),(25,20),(33,35),(40,24),(54,49)]], fill='#f4b860')
         drawing.ellipse(tuple(int(n*scale) for n in (41,10,53,22)), fill='#f7e5ba')
         icon.save(destination / f'icon-{size}.png')
-    names = ['index.html', 'vegas-road-trip-2026.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png']
+    names = ['index.html', 'vegas-road-trip-2026.html', 'itinerary-for-agents.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png']
     assets = {name: hashlib.sha256((destination / name).read_bytes()).hexdigest() for name in names}
     source = (ROOT / 'web/service-worker.js').read_text()
     version = hashlib.sha256((json.dumps(assets, sort_keys=True) + source).encode()).hexdigest()[:16]
@@ -242,7 +243,7 @@ def main():
         }, ensure_ascii=False, separators=(',', ':')) + '\n')
     CACHE.mkdir(exist_ok=True)
     if args.site_dir:
-        build_site(result, args.site_dir)
+        build_site(result, args.site_dir, data)
     (CACHE / "asset-manifest.json").write_text(
         json.dumps(
             {

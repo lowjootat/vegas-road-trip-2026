@@ -2,7 +2,7 @@
 
 `itinerary.json` is the authoritative trip content. Read it directly when planning or changing the trip. No HTML knowledge is needed. The generated HTML is for viewing and sharing.
 
-`itinerary.md` is the generated text reference for agents. It includes the trip content, stable IDs, explicit timestamps, place links, photo references, and checklist defaults. Edit the JSON rather than the Markdown. The offline builder regenerates both the Markdown and HTML; commit both outputs with source changes. The Markdown link on the itinerary opens the raw file on GitHub and requires internet.
+`itinerary.md` is the generated text reference for agents. It includes the trip content, stable IDs, explicit timestamps, place links, photo references, and checklist defaults. Edit the JSON rather than the Markdown. The offline builder regenerates both the Markdown and HTML; commit both outputs with source changes. The agent link on the itinerary opens `itinerary-for-agents.html`, a plain HTML page generated during the website build from the same content renderer. It uses semantic headings and lists, a small inline stylesheet, and no JavaScript or embedded images. The installed website caches this page for offline use; the standalone HTML links to the hosted copy and requires internet. Markdown remains available in the repository.
 
 To regenerate only the Markdown, run `python3 scripts/render_markdown.py`. Run `python3 scripts/render_markdown.py --check` to check freshness without writing files. CI runs this check before building and publishing.
 
