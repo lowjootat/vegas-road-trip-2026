@@ -116,7 +116,7 @@ Watchman Campground is booked for Friday night. The Tsé Bíghanílíní Upper A
 
 - Place IDs: airport-rental-return
 
-- Description: Collect the booked midsize AWD SUV, Nissan Rogue AWD or similar, at Alamo. Pickup is booked for 09:00 UTC−7 on 25 Sep. Complete the paperwork, inspect the car and load your gear.
+- Description: Collect the booked midsize AWD SUV, Nissan Rogue AWD or similar, at Alamo. Pickup is booked for 09:00 UTC−7 on 25 Sep. Make Ili the primary driver and pay for the rental with the United Explorer Card so the rental qualifies for the card’s auto rental collision damage waiver. Complete the paperwork, inspect the car and load your gear.
 
 - map link: [Alamo pickup · 7135 Gillespie St](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%2C+7135+Gillespie+St%2C+Las+Vegas%2C+NV+89119-4267>)
 
@@ -838,43 +838,43 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Photo caption: Upper Antelope Canyon
 
-#### Tsé meeting point · packed lunch
+#### Tsé meeting point → Page · quick lunch
 
 - Activity ID: sun-7-page
 
-- Time: 12:35–13:00 UTC−7
+- Time: 12:35–13:15 UTC−7
 
-- Duration: 25 min
+- Duration: 40 min
 
 - Start timestamp: 2026-09-27T12:35:00-07:00
 
-- End timestamp: 2026-09-27T13:00:00-07:00
+- End timestamp: 2026-09-27T13:15:00-07:00
 
 - Categories: meal
 
 - Place IDs: tse-bighanilini-meeting-point
 
-- Description: Eat the packed lunch at the vehicle, use toilets and leave by 13:00. The schedule does not include a restaurant trip back into Page.
+- Description: After the tour, drive into Page for a quick lunch and toilets. Keep it fast and leave Page by 13:15 for the Grand Canyon.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Tse+Bighanilini+Tours%2C+Page%2C+Arizona>)
 
-#### Tsé meeting point → Desert View
+#### Page → Desert View
 
 - Activity ID: sun-8-page-grand-canyon
 
-- Time: 13:00–15:45 UTC−7
+- Time: 13:15–16:00 UTC−7
 
 - Duration: 2 hr 45 min
 
-- Start timestamp: 2026-09-27T13:00:00-07:00
+- Start timestamp: 2026-09-27T13:15:00-07:00
 
-- End timestamp: 2026-09-27T15:45:00-07:00
+- End timestamp: 2026-09-27T16:00:00-07:00
 
 - Categories: drive
 
 - Place IDs: desert-view
 
-- Description: Drive via US‑89 through Cameron, then AZ‑64 to Desert View. Allow 2 hours 45 minutes including a short break and east-entrance margin. Recheck live navigation; shorten the viewpoints if delayed.
+- Description: Drive from Page via US‑89 through Cameron, then AZ‑64 to Desert View. Allow 2 hours 45 minutes including a short break and east-entrance margin. Recheck live navigation; shorten the viewpoints if delayed.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%2C+Grand+Canyon+National+Park%2C+Arizona>)
 
@@ -882,19 +882,19 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-9-desert-view
 
-- Time: 15:45–16:10 UTC−7
+- Time: 16:00–16:25 UTC−7
 
 - Duration: 25 min
 
-- Start timestamp: 2026-09-27T15:45:00-07:00
+- Start timestamp: 2026-09-27T16:00:00-07:00
 
-- End timestamp: 2026-09-27T16:10:00-07:00
+- End timestamp: 2026-09-27T16:25:00-07:00
 
 - Categories: 
 
 - Place IDs: desert-view
 
-- Description: Exterior viewpoints and photos. Enter the tower only if access is immediate and you can leave by 16:10.
+- Description: Exterior viewpoints and photos. Enter the tower only if access is immediate and you can leave by 16:25.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%2C+Grand+Canyon+National+Park%2C+Arizona>)
 
@@ -906,13 +906,13 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-10-desert-view-lipan
 
-- Time: 16:10–16:20 UTC−7
+- Time: 16:25–16:35 UTC−7
 
 - Duration: 10 min
 
-- Start timestamp: 2026-09-27T16:10:00-07:00
+- Start timestamp: 2026-09-27T16:25:00-07:00
 
-- End timestamp: 2026-09-27T16:20:00-07:00
+- End timestamp: 2026-09-27T16:35:00-07:00
 
 - Categories: drive
 
@@ -926,19 +926,19 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-11-lipan-point
 
-- Time: 16:20–16:35 UTC−7
+- Time: 16:35–16:50 UTC−7
 
 - Duration: 15 min
 
-- Start timestamp: 2026-09-27T16:20:00-07:00
+- Start timestamp: 2026-09-27T16:35:00-07:00
 
-- End timestamp: 2026-09-27T16:35:00-07:00
+- End timestamp: 2026-09-27T16:50:00-07:00
 
 - Categories: 
 
 - Place IDs: navajo-point
 
-- Description: Enjoy views of the Colorado River, canyon and Desert View Watchtower. Leave by 16:35; shorten or skip this stop if delayed to protect Yavapai sunset.
+- Description: Enjoy views of the Colorado River, canyon and Desert View Watchtower. Leave by 16:50; shorten or skip this stop if delayed to protect Yavapai sunset.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Navajo+Point+Grand+Canyon+National+Park>)
 
@@ -952,13 +952,13 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-12-lipan-village-market
 
-- Time: 16:35–17:20 UTC−7
+- Time: 16:50–17:35 UTC−7
 
 - Duration: 45 min
 
-- Start timestamp: 2026-09-27T16:35:00-07:00
+- Start timestamp: 2026-09-27T16:50:00-07:00
 
-- End timestamp: 2026-09-27T17:20:00-07:00
+- End timestamp: 2026-09-27T17:35:00-07:00
 
 - Categories: drive
 
@@ -972,13 +972,13 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-13-grand-canyon-village-market
 
-- Time: 17:20–17:40 UTC−7
+- Time: 17:35–17:55 UTC−7
 
 - Duration: 20 min
 
-- Start timestamp: 2026-09-27T17:20:00-07:00
+- Start timestamp: 2026-09-27T17:35:00-07:00
 
-- End timestamp: 2026-09-27T17:40:00-07:00
+- End timestamp: 2026-09-27T17:55:00-07:00
 
 - Categories: 
 
@@ -992,13 +992,13 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-14-village-market-yavapai
 
-- Time: 17:40–17:50 UTC−7
+- Time: 17:55–18:05 UTC−7
 
 - Duration: 10 min
 
-- Start timestamp: 2026-09-27T17:40:00-07:00
+- Start timestamp: 2026-09-27T17:55:00-07:00
 
-- End timestamp: 2026-09-27T17:50:00-07:00
+- End timestamp: 2026-09-27T18:05:00-07:00
 
 - Categories: drive
 
@@ -1008,11 +1008,11 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-15-yavapai-point
 
-- Time: 17:50–18:50 UTC−7
+- Time: 18:05–18:50 UTC−7
 
-- Duration: 1 hr
+- Duration: 45 min
 
-- Start timestamp: 2026-09-27T17:50:00-07:00
+- Start timestamp: 2026-09-27T18:05:00-07:00
 
 - End timestamp: 2026-09-27T18:50:00-07:00
 
@@ -1020,7 +1020,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Place IDs: yavapai-point
 
-- Description: Eat the sandwich dinner, watch sunset and stay for about 30 minutes of afterglow. Plan to leave around 18:50. Bring layers and headlamps for the walk back to the car.
+- Description: Eat the sandwich dinner, watch sunset and stay for roughly 30 minutes of afterglow. Plan to leave around 18:50. Bring layers and headlamps for the walk back to the car.
 
 - Solar note: 🌅 Sunset ≈18:17 UTC−7 · stay until about 18:50
 
@@ -1076,7 +1076,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 #### Protect the booking
 
-Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amphitheater, 10:20 tour check-in and 11:05 tour departure; shorten overlooks or skip the amphitheater if delayed. Eat a packed lunch at the tour vehicle and leave by 13:00. Allow 2 hours 45 minutes to Desert View. Lipan Point and its access road are closed during the trip, so visit Navajo Point instead. If the afternoon runs late, shorten or skip Navajo first, then shorten Desert View; protect sandwich pickup and Yavapai sunset. Stay at Yavapai until about 18:50, roughly 30 minutes after sunset. There is no Sunday Walmart stop.
+Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amphitheater, 10:20 tour check-in and 11:05 tour departure; shorten overlooks or skip the amphitheater if delayed. After the tour, eat a quick lunch in Page and leave town by 13:15. Allow 2 hours 45 minutes from Page to Desert View. Lipan Point and its access road are closed during the trip, so visit Navajo Point instead. If the afternoon runs late, shorten or skip Navajo first, then shorten Desert View; protect sandwich pickup and Yavapai sunset. Yavapai is intentionally shortened to 18:05–18:50, still covering sunset and roughly 30 minutes of afterglow. There is no Sunday Walmart stop.
 
 - reference link: [NPS Lipan closure](<https://www.nps.gov/grca/learn/news/lipan-point-closure-2026.htm>)
 
@@ -1790,7 +1790,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Sun 27
 
-- Time: 15:45–16:10 UTC−7
+- Time: 16:00–16:25 UTC−7
 
 - Summary: Exterior viewpoints, with the tower interior only if immediate.
 
@@ -1806,7 +1806,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Sun 27
 
-- Time: 16:20–16:35 UTC−7
+- Time: 16:35–16:50 UTC−7
 
 - Summary: Colorado River and Watchtower views. Replaces closed Lipan Point; shorten or skip if delayed.
 
@@ -1822,7 +1822,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Sun 27
 
-- Time: 17:20–17:40 UTC−7
+- Time: 17:35–17:55 UTC−7
 
 - Summary: Pick up dinner sandwiches before Yavapai sunset.
 
@@ -1838,9 +1838,9 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Sun 27
 
-- Time: 17:50–18:50 UTC−7
+- Time: 18:05–18:50 UTC−7
 
-- Summary: Sandwich dinner, sunset around 18:17 and about 30 minutes of afterglow; leave around 18:50.
+- Summary: Sandwich dinner, sunset around 18:17 and roughly 30 minutes of afterglow; leave around 18:50.
 
 ### 20. Long Jim Loop
 
@@ -2266,7 +2266,7 @@ These are the JSON defaults, not saved browser selections.
 
 - [ ] Recheck Zion and Grand Canyon alerts, weather and South Kaibab water status. (ID: `alerts`)
 
-- [ ] Save the Alamo confirmation for pickup and return at 7135 Gillespie St. Pickup: 25 Sep 09:00; booked return: 29 Sep 16:00, both UTC−7. Complete handover by 14:00–14:15 and reach the terminal by 15:00 for the 18:00 flight. (ID: `rental`)
+- [ ] Save the Alamo confirmation for pickup and return at 7135 Gillespie St. At pickup, make Ili the primary driver and pay for the rental with the United Explorer Card so the rental qualifies for the card’s auto rental collision damage waiver. Pickup: 25 Sep 09:00; booked return: 29 Sep 16:00, both UTC−7. Complete handover by 14:00–14:15 and reach the terminal by 15:00 for the 18:00 flight. (ID: `rental`)
 
 - [ ] Confirm whether the 18:00 flight is domestic or international and its airport-arrival requirement. (ID: `flight`)
 
