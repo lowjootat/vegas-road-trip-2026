@@ -41,6 +41,12 @@ if (typeof module !== 'undefined' && module.exports) {
     let target;
     let clockOffset = 0;
     let testingClock = false;
+    function scrollToTarget(behavior = 'smooth') {
+        target?.scrollIntoView({
+            behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : behavior,
+            block: 'start'
+        });
+    }
     function updateClock() {
         const now = Date.now() + clockOffset;
         const state = scheduleState(schedule, now);
@@ -100,10 +106,9 @@ if (typeof module !== 'undefined' && module.exports) {
             testingClock = false;
             updateClock();
         });
-        jump.addEventListener('click', () => target?.scrollIntoView({
-            behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start'
-        }));
+        jump.addEventListener('click', () => scrollToTarget());
         updateClock();
+        scrollToTarget('instant');
         setInterval(() => { if (!document.hidden) updateClock(); }, 60000);
         document.addEventListener('visibilitychange', () => { if (!document.hidden) updateClock(); });
         window.addEventListener('pageshow', updateClock);
