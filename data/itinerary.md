@@ -10,7 +10,7 @@ To change the trip, edit the authoritative JSON and rebuild with `python3 script
 
 - Description: A mobile-friendly timed car-camping itinerary from Las Vegas through Zion, Page and the Grand Canyon, 25–29 September 2026.
 
-- Status: 🏕️ Timed car-camping itinerary · updated 21 Sep 2026
+- Status: 🏕️ Timed car-camping itinerary · updated 25 Sep 2026
 
 - Introduction: Five days, two adults, one SUV — confirmed bookings, exact timing, scenic stops, campsites and a tappable route map.
 
@@ -158,25 +158,25 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Zion+Canyon+Visitor+Center%2C+Springdale%2C+Utah>)
 
-#### Zion Visitor Center
+#### Watchman Campground
 
 - Activity ID: fri-4-zion-visitor-center
 
-- Time: 14:45–15:40 UTC−6
+- Time: 14:45–16:15 UTC−6
 
-- Duration: 55 min
+- Duration: 1 hr 30 min
 
 - Start timestamp: 2026-09-25T14:45:00-06:00
 
-- End timestamp: 2026-09-25T15:40:00-06:00
+- End timestamp: 2026-09-25T16:15:00-06:00
 
 - Categories: 
 
-- Place IDs: zion-visitor-center
+- Place IDs: watchman-campground
 
-- Description: Park, eat the packed lunch, use toilets and check current trail and shuttle information. If Visitor Center parking is full, check whether parking at your reserved Watchman site is available.
+- Description: Go straight to the reserved Watchman campsite, check in, cook and eat lunch, set up the tent and organize camp before the evening outing. Use nearby toilets, fill water as needed and check current Zion trail/tunnel information. Having camp ready means you can return after sunset without pitching the tent in the dark.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Zion+Canyon+Visitor+Center%2C+Springdale%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
 
 #### Pa’rus Trail
 
@@ -190,7 +190,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Place IDs: parus-trail
 
-- Description: Early-arrival bonus only. Skip it at the planned 14:45 arrival. If comfortably ahead, take a short out-and-back and be back at the SUV in time for the 15:55 Canyon Overlook departure.
+- Description: Optional only if lunch and camp setup finish comfortably early. Take a short out-and-back from the Visitor Center/Watchman area, but protect the Canyon Overlook sunset plan and be ready to leave for the trailhead no later than 16:15 UTC−6.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Pa%27rus+Trail%2C+Zion+National+Park%2C+Utah>)
 
@@ -200,23 +200,23 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Photo caption: Pa’rus Trail
 
-#### Zion
+#### Watchman → Canyon Overlook
 
 - Activity ID: fri-6-zion
 
-- Time: 15:55–16:40 UTC−6
+- Time: 16:15–17:00 UTC−6
 
 - Duration: 45 min
 
-- Start timestamp: 2026-09-25T15:55:00-06:00
+- Start timestamp: 2026-09-25T16:15:00-06:00
 
-- End timestamp: 2026-09-25T16:40:00-06:00
+- End timestamp: 2026-09-25T17:00:00-06:00
 
 - Categories: 
 
 - Place IDs: canyon-overlook
 
-- Description: Drive UT‑9 through the tunnel to Canyon Overlook; includes parking search.
+- Description: Drive UT‑9 from Watchman through the Zion–Mount Carmel Tunnel to Canyon Overlook; includes parking search. Leave by 16:15 so there is plenty of time to hike up and settle at the overlook before sunset.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%2C+Zion+National+Park%2C+Utah>)
 
@@ -224,19 +224,21 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Activity ID: fri-7-canyon-overlook
 
-- Time: 16:40–17:40 UTC−6
+- Time: 17:00–19:40 UTC−6
 
-- Duration: 1 hr
+- Duration: 2 hr 40 min
 
-- Start timestamp: 2026-09-25T16:40:00-06:00
+- Start timestamp: 2026-09-25T17:00:00-06:00
 
-- End timestamp: 2026-09-25T17:40:00-06:00
+- End timestamp: 2026-09-25T19:40:00-06:00
 
 - Categories: hike
 
 - Place IDs: canyon-overlook
 
-- Description: Hike and photos, approximately 1.6 km return.
+- Description: Hike to Canyon Overlook, approximately 1.6 km return, then relax at the viewpoint and stay for sunset around 19:25 UTC−6. Start back immediately after sunset and use headlamps for the descent as needed.
+
+- Solar note: 🌅 Sunset ≈19:20–19:30 UTC−6
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%2C+Zion+National+Park%2C+Utah>)
 
@@ -250,19 +252,19 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Activity ID: fri-8-canyon-overlook-watchman
 
-- Time: 17:40–18:20 UTC−6
+- Time: 19:40–20:20 UTC−6
 
 - Duration: 40 min
 
-- Start timestamp: 2026-09-25T17:40:00-06:00
+- Start timestamp: 2026-09-25T19:40:00-06:00
 
-- End timestamp: 2026-09-25T18:20:00-06:00
+- End timestamp: 2026-09-25T20:20:00-06:00
 
 - Categories: 
 
 - Place IDs: watchman-campground
 
-- Description: Drive back through the Zion–Mount Carmel Tunnel to the reserved campground, allowing for tunnel traffic.
+- Description: Drive back through the Zion–Mount Carmel Tunnel to the already-set-up Watchman campsite, allowing for tunnel traffic. This keeps a useful buffer before the announced 21:00 tunnel closure.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
 
@@ -270,21 +272,19 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Activity ID: fri-9-watchman-campground
 
-- Time: 18:20–20:45 UTC−6
+- Time: 20:20–21:00 UTC−6
 
-- Duration: 2 hr 25 min
+- Duration: 40 min
 
-- Start timestamp: 2026-09-25T18:20:00-06:00
+- Start timestamp: 2026-09-25T20:20:00-06:00
 
-- End timestamp: 2026-09-25T20:45:00-06:00
+- End timestamp: 2026-09-25T21:00:00-06:00
 
 - Categories: 
 
 - Place IDs: watchman-campground
 
-- Description: Check in, set up the SUV, cook and eat dinner, clean up and prep Saturday’s hiking gear and breakfast. Sleep around 20:45–21:00.
-
-- Solar note: 🌅 Sunset ≈19:20–19:30 UTC−6
+- Description: Return to the already-set-up campsite, cook/eat a simple dinner if needed, clean up and prep Saturday’s hiking gear and breakfast. Aim to sleep soon after 21:00 for the early Scout Lookout morning.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
 
@@ -292,7 +292,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 #### If behind
 
-Drop Pa’rus first. If Canyon Overlook parking fails, do not circle excessively—take a short scenic stop and head to the reserved Watchman site. Allow another 30–60 minutes if rental pickup or shopping is slow. If pursuing Angels Landing, submit Saturday’s day-before lottery by 15:00 Utah / 14:00 Vegas time on Friday; results arrive after 16:00 Utah time. Scout Lookout itself needs no permit, but the chains section does. Plan on skipping Pa’rus at the revised arrival time. The announced tunnel closure is 21:00–06:00 on Sep 21–25 and 28–30; the planned daytime crossings avoid it. Recheck before travel.
+Pa’rus is optional: drop it first if timing is at all tight. Prioritize checking in at Watchman, cooking lunch and setting up the tent before leaving for Canyon Overlook. If Canyon Overlook parking fails, do not circle excessively—take a short scenic stop and return to camp. Allow another 30–60 minutes if rental pickup or shopping is slow. If pursuing Angels Landing, submit Saturday’s day-before lottery by 15:00 Utah / 14:00 Vegas time on Friday; results arrive after 16:00 Utah time. Scout Lookout itself needs no permit, but the chains section does. The announced tunnel closure is 21:00–06:00 on Sep 21–25 and 28–30; the plan targets the return tunnel crossing well before 21:00. Recheck conditions before travel.
 
 - reference link: [NPS permit rules](<https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm>)
 
@@ -1552,7 +1552,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Time: Optional
 
-- Summary: Early-arrival bonus only; skip at the planned 14:45 Zion arrival to preserve Canyon Overlook.
+- Summary: Optional only if lunch and Watchman camp setup finish comfortably early; protect the 16:15 departure for Canyon Overlook sunset.
 
 ### 4. Canyon Overlook
 
@@ -1566,9 +1566,9 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Fri 25
 
-- Time: 16:40–17:40 UTC−6
+- Time: 17:00–19:40 UTC−6
 
-- Summary: The priority Friday hike, approximately 1.6 km return.
+- Summary: Friday priority: hike up, relax at the viewpoint and stay for sunset around 19:25, then descend with headlamps as needed.
 
 ### 5. Watchman Campground
 
@@ -1584,7 +1584,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Time: Reserved overnight
 
-- Summary: Friday’s booked campsite and Saturday’s early departure point.
+- Summary: Friday’s booked campsite: check in, cook lunch and set up the tent before Canyon Overlook, then return after sunset.
 
 ### 6. The Grotto
 
