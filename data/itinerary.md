@@ -162,19 +162,19 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Activity ID: fri-4-zion-visitor-center
 
-- Time: 14:45–16:15 UTC−6
+- Time: 14:45–15:40 UTC−6
 
-- Duration: 1 hr 30 min
+- Duration: 55 min
 
 - Start timestamp: 2026-09-25T14:45:00-06:00
 
-- End timestamp: 2026-09-25T16:15:00-06:00
+- End timestamp: 2026-09-25T15:40:00-06:00
 
 - Categories: 
 
 - Place IDs: watchman-campground
 
-- Description: Go straight to the reserved Watchman campsite, check in, cook and eat lunch, set up the tent and organize camp before the evening outing. Use nearby toilets, fill water as needed and check current Zion trail/tunnel information. Having camp ready means you can return after sunset without pitching the tent in the dark.
+- Description: Go straight to the reserved Watchman campsite, check in, cook and eat a quick lunch, set up the tent and organize the essentials before the evening outing. Use nearby toilets, fill water as needed and check current Zion trail/tunnel information. Keep the setup efficient so camp is ready before sunset.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
 
@@ -190,7 +190,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Place IDs: parus-trail
 
-- Description: Optional only if lunch and camp setup finish comfortably early. Take a short out-and-back from the Visitor Center/Watchman area, but protect the Canyon Overlook sunset plan and be ready to leave for the trailhead no later than 16:15 UTC−6.
+- Description: Optional only if lunch and camp setup finish comfortably early. Take a short out-and-back from the Visitor Center/Watchman area, but protect the Canyon Overlook sunset plan and be back at the SUV for the 15:55 UTC−6 departure.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Pa%27rus+Trail%2C+Zion+National+Park%2C+Utah>)
 
@@ -204,19 +204,19 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Activity ID: fri-6-zion
 
-- Time: 16:15–17:00 UTC−6
+- Time: 15:55–16:40 UTC−6
 
 - Duration: 45 min
 
-- Start timestamp: 2026-09-25T16:15:00-06:00
+- Start timestamp: 2026-09-25T15:55:00-06:00
 
-- End timestamp: 2026-09-25T17:00:00-06:00
+- End timestamp: 2026-09-25T16:40:00-06:00
 
 - Categories: 
 
 - Place IDs: canyon-overlook
 
-- Description: Drive UT‑9 from Watchman through the Zion–Mount Carmel Tunnel to Canyon Overlook; includes parking search. Leave by 16:15 so there is plenty of time to hike up and settle at the overlook before sunset.
+- Description: Drive UT‑9 from Watchman through the Zion–Mount Carmel Tunnel to Canyon Overlook; includes parking search. Leave by 15:55 so there is plenty of time to hike up and settle at the overlook before sunset.
 
 - map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%2C+Zion+National+Park%2C+Utah>)
 
@@ -224,11 +224,11 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Activity ID: fri-7-canyon-overlook
 
-- Time: 17:00–19:40 UTC−6
+- Time: 16:40–19:40 UTC−6
 
-- Duration: 2 hr 40 min
+- Duration: 3 hr
 
-- Start timestamp: 2026-09-25T17:00:00-06:00
+- Start timestamp: 2026-09-25T16:40:00-06:00
 
 - End timestamp: 2026-09-25T19:40:00-06:00
 
@@ -1552,7 +1552,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Time: Optional
 
-- Summary: Optional only if lunch and Watchman camp setup finish comfortably early; protect the 16:15 departure for Canyon Overlook sunset.
+- Summary: Optional only if lunch and Watchman camp setup finish comfortably early; protect the 15:55 departure for Canyon Overlook sunset.
 
 ### 4. Canyon Overlook
 
@@ -1566,7 +1566,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Fri 25
 
-- Time: 17:00–19:40 UTC−6
+- Time: 16:40–19:40 UTC−6
 
 - Summary: Friday priority: hike up, relax at the viewpoint and stay for sunset around 19:25, then descend with headlamps as needed.
 
