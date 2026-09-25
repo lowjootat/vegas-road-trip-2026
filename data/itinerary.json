@@ -138,9 +138,9 @@
         {
           "id": "fri-4-zion-visitor-center",
           "location": "Watchman Campground",
-          "time": "14:45–16:15 UTC−6",
-          "duration": "1 hr 30 min",
-          "description": "Go straight to the reserved Watchman campsite, check in, cook and eat lunch, set up the tent and organize camp before the evening outing. Use nearby toilets, fill water as needed and check current Zion trail/tunnel information. Having camp ready means you can return after sunset without pitching the tent in the dark.",
+          "time": "14:45–15:40 UTC−6",
+          "duration": "55 min",
+          "description": "Go straight to the reserved Watchman campsite, check in, cook and eat a quick lunch, set up the tent and organize the essentials before the evening outing. Use nearby toilets, fill water as needed and check current Zion trail/tunnel information. Keep the setup efficient so camp is ready before sunset.",
           "categories": [],
           "links": [
             {
@@ -153,14 +153,14 @@
             "watchman-campground"
           ],
           "startAt": "2026-09-25T14:45:00-06:00",
-          "endAt": "2026-09-25T16:15:00-06:00"
+          "endAt": "2026-09-25T15:40:00-06:00"
         },
         {
           "id": "fri-5-parus-trail",
           "location": "Pa’rus Trail",
           "time": "Optional",
           "duration": "Flexible",
-          "description": "Optional only if lunch and camp setup finish comfortably early. Take a short out-and-back from the Visitor Center/Watchman area, but protect the Canyon Overlook sunset plan and be ready to leave for the trailhead no later than 16:15 UTC−6.",
+          "description": "Optional only if lunch and camp setup finish comfortably early. Take a short out-and-back from the Visitor Center/Watchman area, but protect the Canyon Overlook sunset plan and be back at the SUV for the 15:55 UTC−6 departure.",
           "categories": [
             "hike"
           ],
@@ -188,9 +188,9 @@
         {
           "id": "fri-6-zion",
           "location": "Watchman → Canyon Overlook",
-          "time": "16:15–17:00 UTC−6",
+          "time": "15:55–16:40 UTC−6",
           "duration": "45 min",
-          "description": "Drive UT‑9 from Watchman through the Zion–Mount Carmel Tunnel to Canyon Overlook; includes parking search. Leave by 16:15 so there is plenty of time to hike up and settle at the overlook before sunset.",
+          "description": "Drive UT‑9 from Watchman through the Zion–Mount Carmel Tunnel to Canyon Overlook; includes parking search. Leave by 15:55 so there is plenty of time to hike up and settle at the overlook before sunset.",
           "categories": [],
           "links": [
             {
@@ -202,14 +202,14 @@
           "placeIds": [
             "canyon-overlook"
           ],
-          "startAt": "2026-09-25T16:15:00-06:00",
-          "endAt": "2026-09-25T17:00:00-06:00"
+          "startAt": "2026-09-25T15:55:00-06:00",
+          "endAt": "2026-09-25T16:40:00-06:00"
         },
         {
           "id": "fri-7-canyon-overlook",
           "location": "Canyon Overlook",
-          "time": "17:00–19:40 UTC−6",
-          "duration": "2 hr 40 min",
+          "time": "16:40–19:40 UTC−6",
+          "duration": "3 hr",
           "description": "Hike to Canyon Overlook, approximately 1.6 km return, then relax at the viewpoint and stay for sunset around 19:25 UTC−6. Start back immediately after sunset and use headlamps for the descent as needed.",
           "categories": [
             "hike"
@@ -234,7 +234,7 @@
           "placeIds": [
             "canyon-overlook"
           ],
-          "startAt": "2026-09-25T17:00:00-06:00",
+          "startAt": "2026-09-25T16:40:00-06:00",
           "endAt": "2026-09-25T19:40:00-06:00",
           "solarNote": "🌅 Sunset ≈19:20–19:30 UTC−6"
         },
@@ -1795,7 +1795,7 @@
       ],
       "dayLabel": "Fri 25",
       "time": "Optional",
-      "summary": "Optional only if lunch and Watchman camp setup finish comfortably early; protect the 16:15 departure for Canyon Overlook sunset.",
+      "summary": "Optional only if lunch and Watchman camp setup finish comfortably early; protect the 15:55 departure for Canyon Overlook sunset.",
       "defaultDayId": "fri"
     },
     {
@@ -1806,7 +1806,7 @@
         "fri"
       ],
       "dayLabel": "Fri 25",
-      "time": "17:00–19:40 UTC−6",
+      "time": "16:40–19:40 UTC−6",
       "summary": "Friday priority: hike up, relax at the viewpoint and stay for sunset around 19:25, then descend with headlamps as needed.",
       "defaultDayId": "fri"
     },
