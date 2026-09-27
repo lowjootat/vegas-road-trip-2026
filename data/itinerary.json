@@ -14,7 +14,7 @@
     },
     "bookingNotice": {
       "title": "✓ Core bookings confirmed",
-      "text": "Watchman Campground is booked for Friday night, and Desert View Campground is booked for Sunday night. The Tsé Bíghanílíní Upper Antelope Canyon tour is booked for Sunday 11:05–12:35; keep the 10:20 check-in target.",
+      "text": "Watchman Campground is booked for Friday night, and Desert View Campground is booked for Sunday night. The Tsé Bíghanílíní Upper Antelope Canyon tour is booked for Sunday 11:05–12:35; target arrival around 10:15 for the 10:20 check-in.",
       "links": []
     },
     "facts": [
@@ -619,15 +619,15 @@
       "date": "2026-09-27",
       "title": "Sunday 27 Sep",
       "navigationLabel": "Sun 27 · Antelope",
-      "route": "Lone Rock → Wahweap → Dam Overlook → Amphitheater → Upper Antelope → Desert View → Navajo Point → Desert View Campground",
+      "route": "Lone Rock → Wahweap → Amphitheater → Upper Antelope → Desert View → Navajo Point → Desert View Campground",
       "clockGuidance": "All listed times Arizona UTC−7",
       "activities": [
         {
           "id": "sun-1-lone-rock-beach",
           "location": "Lone Rock Beach",
-          "time": "06:00–07:00 UTC−7",
+          "time": "07:30–08:30 UTC−7",
           "duration": "1 hr",
-          "description": "Wake, breakfast, fill bottles and break camp. Keep clocks on Arizona time; local Utah clocks read one hour later.",
+          "description": "Wake, breakfast, fill bottles and break camp. Keep clocks on Arizona time; local Utah clocks read one hour later. With Glen Canyon Dam Overlook removed and the tour-transfer buffer tightened, you can leave camp at 08:30.",
           "categories": [],
           "links": [
             {
@@ -640,15 +640,15 @@
           "placeIds": [
             "lone-rock-beach"
           ],
-          "startAt": "2026-09-27T06:00:00-07:00",
-          "endAt": "2026-09-27T07:00:00-07:00"
+          "startAt": "2026-09-27T07:30:00-07:00",
+          "endAt": "2026-09-27T08:30:00-07:00"
         },
         {
           "id": "sun-2-lone-rock-page",
           "location": "Lone Rock → Wahweap Overlook",
-          "time": "07:00–07:30 UTC−7",
+          "time": "08:30–09:00 UTC−7",
           "duration": "30 min",
-          "description": "Allow 30 minutes to leave the beach, drive to the signed Wahweap Overlook off US‑89 and park. Keep clocks on Arizona time. If early, spend the extra time at the overlook; leave there by 07:45.",
+          "description": "Allow 30 minutes to leave the beach, drive to the signed Wahweap Overlook off US‑89 and park. Keep clocks on Arizona time.",
           "categories": [
             "drive"
           ],
@@ -659,13 +659,13 @@
               "placeId": "wahweap-overlook"
             }
           ],
-          "startAt": "2026-09-27T07:00:00-07:00",
-          "endAt": "2026-09-27T07:30:00-07:00"
+          "startAt": "2026-09-27T08:30:00-07:00",
+          "endAt": "2026-09-27T09:00:00-07:00"
         },
         {
           "id": "sat-8-wahweap-overlook",
           "location": "Wahweap Overlook",
-          "time": "07:30–07:45 UTC−7",
+          "time": "09:00–09:15 UTC−7",
           "duration": "15 min",
           "description": "Lake Powell views and photos.",
           "categories": [],
@@ -684,53 +684,13 @@
           "placeIds": [
             "wahweap-overlook"
           ],
-          "startAt": "2026-09-27T07:30:00-07:00",
-          "endAt": "2026-09-27T07:45:00-07:00"
+          "startAt": "2026-09-27T09:00:00-07:00",
+          "endAt": "2026-09-27T09:15:00-07:00"
         },
         {
-          "id": "sat-9-wahweap-dam-overlook",
-          "location": "Wahweap → Dam Overlook",
-          "time": "07:45–08:05 UTC−7",
-          "duration": "20 min",
-          "description": "Drive across the dam and park.",
-          "categories": [
-            "drive"
-          ],
-          "links": [],
-          "startAt": "2026-09-27T07:45:00-07:00",
-          "endAt": "2026-09-27T08:05:00-07:00"
-        },
-        {
-          "id": "sat-10-glen-canyon-dam-overlook",
-          "location": "Glen Canyon Dam Overlook",
-          "time": "08:05–08:35 UTC−7",
-          "duration": "30 min",
-          "description": "Short walk and views.",
-          "categories": [
-            "hike"
-          ],
-          "links": [
-            {
-              "label": "Google Maps",
-              "kind": "map",
-              "placeId": "glen-canyon-dam-overlook"
-            }
-          ],
-          "photo": {
-            "url": "https://d36tnp772eyphs.cloudfront.net/blogs/1/2017/10/Lake-Powell-and-Glen-Canyon-Dam-in-the-Desert-of-Arizona-United-States.jpg",
-            "alt": "Glen Canyon Dam and Lake Powell",
-            "caption": "Glen Canyon Dam"
-          },
-          "placeIds": [
-            "glen-canyon-dam-overlook"
-          ],
-          "startAt": "2026-09-27T08:05:00-07:00",
-          "endAt": "2026-09-27T08:35:00-07:00"
-        },
-        {
-          "id": "sat-11-dam-overlook-amphitheater",
-          "location": "Dam Overlook → Amphitheater",
-          "time": "08:35–08:50 UTC−7",
+          "id": "sun-wahweap-amphitheater",
+          "location": "Wahweap → Page Shore Amphitheater",
+          "time": "09:15–09:30 UTC−7",
           "duration": "15 min",
           "description": "Drive to the Page Shores Amphitheater access beside Big Lake Trading Post / Shell at 1501 Coppermine Road. Use permitted parking and follow signs; the sandstone area is reached on foot.",
           "categories": [
@@ -743,15 +703,15 @@
               "url": "https://www.google.com/maps/search/?api=1&query=Big+Lake+Trading+Post+1501+Coppermine+Road+Page"
             }
           ],
-          "startAt": "2026-09-27T08:35:00-07:00",
-          "endAt": "2026-09-27T08:50:00-07:00"
+          "startAt": "2026-09-27T09:15:00-07:00",
+          "endAt": "2026-09-27T09:30:00-07:00"
         },
         {
           "id": "sat-12-page-shore-amphitheater",
           "location": "Page Shore Amphitheater",
-          "time": "08:50–09:20 UTC−7",
+          "time": "09:30–10:00 UTC−7",
           "duration": "30 min",
-          "description": "Short sandstone exploration and photos behind Big Lake Trading Post / Shell. The map pin marks the attraction; use the nearby signed access and permitted parking, then walk. Return to the car by 09:20.",
+          "description": "Short sandstone exploration and photos behind Big Lake Trading Post / Shell. The map pin marks the attraction; use the nearby signed access and permitted parking, then walk. Return to the car by 10:00.",
           "categories": [],
           "links": [
             {
@@ -768,39 +728,28 @@
           "placeIds": [
             "page-shore-amphitheater"
           ],
-          "startAt": "2026-09-27T08:50:00-07:00",
-          "endAt": "2026-09-27T09:20:00-07:00"
-        },
-        {
-          "id": "sat-13-page",
-          "location": "Page Shore Amphitheater · departure buffer",
-          "time": "09:20–09:30 UTC−7",
-          "duration": "10 min",
-          "description": "Snack and schedule buffer before leaving for the tour meeting point. No Walmart stop; leave by 09:30.",
-          "categories": [],
-          "links": [],
-          "startAt": "2026-09-27T09:20:00-07:00",
-          "endAt": "2026-09-27T09:30:00-07:00"
+          "startAt": "2026-09-27T09:30:00-07:00",
+          "endAt": "2026-09-27T10:00:00-07:00"
         },
         {
           "id": "sun-4-page-tse",
           "location": "Page Shore Amphitheater → Tsé",
-          "time": "09:30–10:10 UTC−7",
-          "duration": "40 min",
-          "description": "Leave the amphitheater access parking by 09:30. The nearby tour meeting point is on Hwy 98 at milepost 299.8. This 40-minute block includes the short drive, parking and a generous booking buffer; target arrival by 10:10 for the 10:20 check-in.",
+          "time": "10:00–10:15 UTC−7",
+          "duration": "15 min",
+          "description": "The actual drive from the amphitheater access parking to the Tsé Bíghanílíní meeting point is only about 5 minutes. Allow roughly 10 additional minutes for pulling out, parking and a small arrival margin. Leave by 10:00 and target arrival around 10:15 for the 10:20 check-in; check-in closes at 10:35.",
           "categories": [
             "drive"
           ],
           "links": [],
-          "startAt": "2026-09-27T09:30:00-07:00",
-          "endAt": "2026-09-27T10:10:00-07:00"
+          "startAt": "2026-09-27T10:00:00-07:00",
+          "endAt": "2026-09-27T10:15:00-07:00"
         },
         {
           "id": "sun-5-tse-bighanilini",
           "location": "Tsé Bíghanílíní",
-          "time": "10:10–11:05 UTC−7",
-          "duration": "55 min",
-          "description": "Early-arrival buffer, 10:20 check-in, toilets and wait for the booked departure. Check-in closes at 10:35.",
+          "time": "10:15–11:05 UTC−7",
+          "duration": "50 min",
+          "description": "Arrive around 10:15, check in at 10:20, use the toilets and wait for the booked departure. Check-in closes at 10:35.",
           "categories": [],
           "links": [
             {
@@ -812,7 +761,7 @@
           "placeIds": [
             "tse-bighanilini-meeting-point"
           ],
-          "startAt": "2026-09-27T10:10:00-07:00",
+          "startAt": "2026-09-27T10:15:00-07:00",
           "endAt": "2026-09-27T11:05:00-07:00"
         },
         {
@@ -1881,7 +1830,7 @@
       ],
       "dayLabel": "Sat 26 · Sun 27",
       "time": "Overnight",
-      "summary": "Arrive Saturday around 16:50 Arizona time, set up camp and watch sunset around 18:16. Keep clocks on Arizona time; leave Sunday at 07:00.",
+      "summary": "Saturday overnight. Keep clocks on Arizona time; Sunday morning departure is now 08:30 after breakfast and breaking camp.",
       "defaultDayId": "sat"
     },
     {
@@ -1892,49 +1841,37 @@
         "sun"
       ],
       "dayLabel": "Sun 27",
-      "time": "07:30–07:45 UTC−7",
+      "time": "09:00–09:15 UTC−7",
       "summary": "Lake Powell views and photos.",
       "defaultDayId": "sun"
     },
     {
-      "id": "glen-canyon-dam-overlook",
-      "number": 12,
-      "placeId": "glen-canyon-dam-overlook",
-      "dayIds": [
-        "sun"
-      ],
-      "dayLabel": "Sun 27",
-      "time": "08:05–08:35 UTC−7",
-      "summary": "Short walk and views over the dam and river.",
-      "defaultDayId": "sun"
-    },
-    {
       "id": "page-shore-amphitheater",
-      "number": 13,
+      "number": 12,
       "placeId": "page-shore-amphitheater",
       "dayIds": [
         "sun"
       ],
       "dayLabel": "Sun 27",
-      "time": "08:50–09:20 UTC−7",
-      "summary": "Sandstone stop behind Big Lake Trading Post / Shell. Pin marks the attraction; use the nearby signed access and permitted parking.",
+      "time": "09:30–10:00 UTC−7",
+      "summary": "Sandstone stop behind Big Lake Trading Post / Shell. Return to the car by 10:00, then it is only about a 5-minute drive to the tour meeting point.",
       "defaultDayId": "sun"
     },
     {
       "id": "tse-bighanilini-meeting-point",
-      "number": 14,
+      "number": 13,
       "placeId": "tse-bighanilini-meeting-point",
       "dayIds": [
         "sun"
       ],
       "dayLabel": "Sun 27",
-      "time": "10:20 check-in",
-      "summary": "Hwy 98 milepost 299.8; check-in closes at 10:35.",
+      "time": "10:15 arrival · 10:20 check-in",
+      "summary": "Hwy 98 milepost 299.8; arrive around 10:15 for the 10:20 check-in. Check-in closes at 10:35.",
       "defaultDayId": "sun"
     },
     {
       "id": "upper-antelope-canyon",
-      "number": 15,
+      "number": 14,
       "placeId": "upper-antelope-canyon",
       "dayIds": [
         "sun"
@@ -1946,7 +1883,7 @@
     },
     {
       "id": "desert-view",
-      "number": 16,
+      "number": 15,
       "placeId": "desert-view",
       "dayIds": [
         "sun"
@@ -1958,7 +1895,7 @@
     },
     {
       "id": "lipan-point",
-      "number": 17,
+      "number": 16,
       "placeId": "navajo-point",
       "dayIds": [
         "sun"
@@ -1970,7 +1907,7 @@
     },
     {
       "id": "desert-view-campground",
-      "number": 18,
+      "number": 17,
       "placeId": "desert-view-campground",
       "dayIds": [
         "sun",
@@ -1983,7 +1920,7 @@
     },
     {
       "id": "grand-canyon-visitor-center",
-      "number": 19,
+      "number": 18,
       "placeId": "grand-canyon-visitor-center",
       "dayIds": [
         "mon"
@@ -1995,7 +1932,7 @@
     },
     {
       "id": "south-kaibab-trail",
-      "number": 20,
+      "number": 19,
       "placeId": "south-kaibab-trail",
       "dayIds": [
         "mon"
@@ -2007,7 +1944,7 @@
     },
     {
       "id": "mather-point",
-      "number": 21,
+      "number": 20,
       "placeId": "mather-point",
       "dayIds": [
         "mon"
@@ -2019,7 +1956,7 @@
     },
     {
       "id": "yavapai-point",
-      "number": 22,
+      "number": 21,
       "placeId": "yavapai-point",
       "dayIds": [
         "mon"
@@ -2031,7 +1968,7 @@
     },
     {
       "id": "hopi-point",
-      "number": 23,
+      "number": 22,
       "placeId": "hopi-point",
       "dayIds": [
         "mon"
@@ -2043,7 +1980,7 @@
     },
     {
       "id": "mohave-point",
-      "number": 24,
+      "number": 23,
       "placeId": "mohave-point",
       "dayIds": [
         "mon"
@@ -2055,7 +1992,7 @@
     },
     {
       "id": "long-jim-loop",
-      "number": 25,
+      "number": 24,
       "placeId": "long-jim-loop",
       "dayIds": [
         "mon",
@@ -2068,7 +2005,7 @@
     },
     {
       "id": "airport-rental-return",
-      "number": 26,
+      "number": 25,
       "placeId": "airport-rental-return",
       "dayIds": [
         "fri",
@@ -2081,7 +2018,7 @@
     },
     {
       "id": "harry-reid-international-airport",
-      "number": 27,
+      "number": 26,
       "placeId": "harry-reid-international-airport",
       "dayIds": [
         "tue"
@@ -2095,7 +2032,7 @@
   "checklist": [
     {
       "id": "tour",
-      "text": "Keep the Upper Antelope confirmation and meeting pin offline; protect the 10:20 arrival.",
+      "text": "Keep the Upper Antelope confirmation and meeting pin offline; target arrival around 10:15 for the 10:20 check-in.",
       "checked": true
     },
     {
