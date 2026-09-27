@@ -72,7 +72,7 @@ class ItineraryTests(unittest.TestCase):
     def test_solar_events_outside_schedule_have_timed_boundary_rows(self):
         source = self.render()
         self.assertEqual(source.count('class="solar-marker"'), 10)
-        self.assertEqual(source.count('class="solar-boundary"'), 3)
+        self.assertEqual(source.count('class="solar-boundary"'), 4)
         _, before, _ = solar_markers(self.data["days"][0])
         self.assertIn("06:31", before["fri-1-las-vegas"])
         inside, _, _ = solar_markers(self.data["days"][3])
