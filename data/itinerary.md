@@ -24,7 +24,7 @@ To change the trip, edit the authoritative JSON and rebuild with `python3 script
 
 ## ✓ Core bookings confirmed
 
-Watchman Campground is booked for Friday night, and Desert View Campground is booked for Sunday night. The Tsé Bíghanílíní Upper Antelope Canyon tour is booked for Sunday 11:05–12:35; keep the 10:20 check-in target.
+Watchman Campground is booked for Friday night, and Desert View Campground is booked for Sunday night. The Tsé Bíghanílíní Upper Antelope Canyon tour is booked for Sunday 11:05–12:35; target arrival around 10:15 for the 10:20 check-in.
 
 ## Friday 25 Sep
 
@@ -78,7 +78,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Solar note: 🌄 Sunrise ≈06:31 UTC−7
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Las+Vegas%2C+Nevada>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Las+Vegas%252C+Nevada>)
 
 #### Hotel → Alamo by Uber
 
@@ -98,7 +98,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Description: Check out of The Cosmopolitan of Las Vegas and take an Uber to Alamo at the Harry Reid airport rental center. The drive takes about 10 minutes, depending on traffic. The 08:00–09:00 UTC−7 block also includes checkout and waiting for the Uber. Arrive in time for the booked 09:00 UTC−7 pickup.
 
-- map link: [Uber destination · Alamo](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%2C+7135+Gillespie+St%2C+Las+Vegas%2C+NV+89119-4267>)
+- map link: [Uber destination · Alamo](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%252C+7135+Gillespie+St%252C+Las+Vegas%252C+NV+89119-4267>)
 
 #### Alamo rental pickup
 
@@ -118,7 +118,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Description: Collect the booked midsize AWD SUV, Nissan Rogue AWD or similar, at Alamo. Pickup is booked for 09:00 UTC−7 on 25 Sep. Make Ili the primary driver and pay for the rental with the United Explorer Card so the rental qualifies for the card’s auto rental collision damage waiver. Complete the paperwork, inspect the car and load your gear.
 
-- map link: [Alamo pickup · 7135 Gillespie St](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%2C+7135+Gillespie+St%2C+Las+Vegas%2C+NV+89119-4267>)
+- map link: [Alamo pickup · 7135 Gillespie St](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%252C+7135+Gillespie+St%252C+Las+Vegas%252C+NV+89119-4267>)
 
 #### Alamo → Walmart Supercenter
 
@@ -156,7 +156,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Description: Drive from Walmart on E Serene Ave via I‑215 / I‑15 / UT‑9 to Zion Canyon Visitor Center. Allow 3 hours 30 minutes elapsed; the clock advances one hour. Traffic, entrance queues or a break may add time. Use the optional Pa’rus slot for delays and check live navigation before leaving.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Zion+Canyon+Visitor+Center%2C+Springdale%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Zion+Canyon+Visitor+Center%252C+Springdale%252C+Utah>)
 
 #### Watchman Campground
 
@@ -176,7 +176,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Description: Go straight to the reserved Watchman campsite, check in, cook and eat a quick lunch, set up the tent and organize the essentials before the evening outing. Use nearby toilets, fill water as needed and check current Zion trail/tunnel information. Keep the setup efficient so camp is ready before sunset.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%252C+Zion+National+Park%252C+Utah>)
 
 #### Pa’rus Trail
 
@@ -192,7 +192,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Description: Optional only if lunch and camp setup finish comfortably early. Take a short out-and-back from the Visitor Center/Watchman area, but protect the Canyon Overlook sunset plan and be back at the SUV for the 15:55 UTC−6 departure.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Pa%27rus+Trail%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Pa%2527rus+Trail%252C+Zion+National+Park%252C+Utah>)
 
 - trail link: [AllTrails](<https://www.alltrails.com/trail/us/utah/parus-trail>)
 
@@ -218,7 +218,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Description: Drive UT‑9 from Watchman through the Zion–Mount Carmel Tunnel to Canyon Overlook; includes parking search. Leave by 15:55 so there is plenty of time to hike up and settle at the overlook before sunset.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%252C+Zion+National+Park%252C+Utah>)
 
 #### Canyon Overlook
 
@@ -240,7 +240,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Solar note: 🌅 Sunset ≈19:20–19:30 UTC−6
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%252C+Zion+National+Park%252C+Utah>)
 
 - trail link: [AllTrails](<https://www.alltrails.com/trail/us/utah/canyon-overlook-trail>)
 
@@ -266,7 +266,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Description: Drive back through the Zion–Mount Carmel Tunnel to the already-set-up Watchman campsite, allowing for tunnel traffic. This keeps a useful buffer before the announced 21:00 tunnel closure.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%252C+Zion+National+Park%252C+Utah>)
 
 #### Watchman Campground
 
@@ -286,7 +286,7 @@ Watchman Campground is booked for Friday night, and Desert View Campground is bo
 
 - Description: Return to the already-set-up campsite, cook/eat a simple dinner if needed, clean up and prep Saturday’s hiking gear and breakfast. Aim to sleep soon after 21:00 for the early Scout Lookout morning.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%252C+Zion+National+Park%252C+Utah>)
 
 ### Day notes
 
@@ -348,7 +348,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Description: Cook breakfast, fill bottles, break camp and pack the car.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%252C+Zion+National+Park%252C+Utah>)
 
 #### Watchman → The Grotto
 
@@ -372,7 +372,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Solar note: 🌄 Sunrise ≈07:22 UTC−6
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=The+Grotto%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=The+Grotto%252C+Zion+National+Park%252C+Utah>)
 
 - reference link: [NPS shuttle schedule](<https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm>)
 
@@ -394,7 +394,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Description: West Rim hike with photos and snack rests; turn around at Scout Lookout.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Scout+Lookout%2C+Zion+National+Park%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Scout+Lookout%252C+Zion+National+Park%252C+Utah>)
 
 - trail link: [AllTrails](<https://www.alltrails.com/trail/us/utah/scout-lookout-trail>)
 
@@ -440,7 +440,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Description: Drive via UT‑9 and Mt Carmel Junction.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Kanab%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Kanab%252C+Utah>)
 
 #### Kanab
 
@@ -460,7 +460,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Description: Quick lunch; leave by 14:15 Utah time.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Kanab%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Kanab%252C+Utah>)
 
 #### Kanab → Horseshoe Bend
 
@@ -480,7 +480,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Description: Drive via US‑89 to Horseshoe Bend. Allow 1 hour 45 minutes elapsed including parking. Gain one hour on the clock in Arizona. Check navigation before departure; shorten viewpoint time if delayed to protect the 16:20 departure for Lone Rock.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Horseshoe+Bend%2C+Page%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Horseshoe+Bend%252C+Page%252C+Arizona>)
 
 #### Horseshoe Bend
 
@@ -500,7 +500,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Description: Walk the 2.4 km round trip to the overlook and take afternoon photos. Allow time for water and rest after the morning Zion hike; bring water and sun protection. Return to the car by about 16:20, then head straight to Lone Rock for camp setup and sunset.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Horseshoe+Bend%2C+Page%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Horseshoe+Bend%252C+Page%252C+Arizona>)
 
 - trail link: [AllTrails](<https://www.alltrails.com/trail/us/arizona/horseshoe-bend-trail>)
 
@@ -528,7 +528,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Description: Drive directly to Lone Rock Beach. Allow about 30 minutes; check navigation before departure. Keep using Arizona time even after crossing into Utah.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lone+Rock+Beach%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lone+Rock+Beach%252C+Utah>)
 
 - Photo reference: [Lone Rock rising above Lake Powell beside Lone Rock Beach](<https://www.nps.gov/glca/planyourvisit/images/PHOTO_LYL24_WW_20240928_013a.jpg?maxwidth=1300&autorotate=false>)
 
@@ -552,7 +552,7 @@ Pa’rus is optional: drop it first if timing is at all tight. Prioritize checki
 
 - Description: Enter and pay if needed, choose a conservative, accessible firm spot and set up the SUV in daylight. Follow rental-road restrictions and avoid deep or soft sand.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lone+Rock+Beach%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lone+Rock+Beach%252C+Utah>)
 
 #### Lone Rock Beach
 
@@ -588,11 +588,11 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Navigation label: Sun 27 · Antelope
 
-- Route: Lone Rock → Wahweap → Dam Overlook → Amphitheater → Upper Antelope → Desert View → Navajo Point → Desert View Campground
+- Route: Lone Rock → Wahweap → Amphitheater → Upper Antelope → Desert View → Navajo Point → Desert View Campground
 
 - Clock guidance: All listed times Arizona UTC−7
 
-- Photo reference: [Upper Antelope Canyon sandstone and light beams](<https://commons.wikimedia.org/wiki/Special:Redirect/file/UPPER%20ANTELOPE%20CANYON%20%2C%20PAGE%2C%20ARIZONA%20-%20LIGHTBEAMS.jpg?width=1400>)
+- Photo reference: [Upper Antelope Canyon sandstone and light beams](<https://commons.wikimedia.org/wiki/Special:Redirect/file/UPPER%2520ANTELOPE%2520CANYON%2520%252C%2520PAGE%252C%2520ARIZONA%2520-%2520LIGHTBEAMS.jpg?width=1400>)
 
 - Photo caption: Upper Antelope Canyon · booked
 
@@ -616,53 +616,53 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sun-1-lone-rock-beach
 
-- Time: 06:00–07:00 UTC−7
+- Time: 07:30–08:30 UTC−7
 
 - Duration: 1 hr
 
-- Start timestamp: 2026-09-27T06:00:00-07:00
+- Start timestamp: 2026-09-27T07:30:00-07:00
 
-- End timestamp: 2026-09-27T07:00:00-07:00
+- End timestamp: 2026-09-27T08:30:00-07:00
 
 - Categories: 
 
 - Place IDs: lone-rock-beach
 
-- Description: Wake, breakfast, fill bottles and break camp. Keep clocks on Arizona time; local Utah clocks read one hour later.
+- Description: Wake, breakfast, fill bottles and break camp. Keep clocks on Arizona time; local Utah clocks read one hour later. With Glen Canyon Dam Overlook removed and the tour-transfer buffer tightened, you can leave camp at 08:30.
 
 - Solar note: 🌄 Sunrise ≈06:17 UTC−7
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lone+Rock+Beach%2C+Utah>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lone+Rock+Beach%252C+Utah>)
 
 #### Lone Rock → Wahweap Overlook
 
 - Activity ID: sun-2-lone-rock-page
 
-- Time: 07:00–07:30 UTC−7
+- Time: 08:30–09:00 UTC−7
 
 - Duration: 30 min
 
-- Start timestamp: 2026-09-27T07:00:00-07:00
+- Start timestamp: 2026-09-27T08:30:00-07:00
 
-- End timestamp: 2026-09-27T07:30:00-07:00
+- End timestamp: 2026-09-27T09:00:00-07:00
 
 - Categories: drive
 
-- Description: Allow 30 minutes to leave the beach, drive to the signed Wahweap Overlook off US‑89 and park. Keep clocks on Arizona time. If early, spend the extra time at the overlook; leave there by 07:45.
+- Description: Allow 30 minutes to leave the beach, drive to the signed Wahweap Overlook off US‑89 and park. Keep clocks on Arizona time.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Wahweap+Overlook%2C+Page%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Wahweap+Overlook%252C+Page%252C+Arizona>)
 
 #### Wahweap Overlook
 
 - Activity ID: sat-8-wahweap-overlook
 
-- Time: 07:30–07:45 UTC−7
+- Time: 09:00–09:15 UTC−7
 
 - Duration: 15 min
 
-- Start timestamp: 2026-09-27T07:30:00-07:00
+- Start timestamp: 2026-09-27T09:00:00-07:00
 
-- End timestamp: 2026-09-27T07:45:00-07:00
+- End timestamp: 2026-09-27T09:15:00-07:00
 
 - Categories: 
 
@@ -670,63 +670,23 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Description: Lake Powell views and photos.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Wahweap+Overlook%2C+Page%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Wahweap+Overlook%252C+Page%252C+Arizona>)
 
 - Photo reference: [View over Lake Powell from Wahweap](<https://www.explore.com/img/gallery/one-of-arizonas-most-underrated-gems-is-a-remote-lakeside-overlook-in-red-rock-country/intro-1738855208.jpg>)
 
 - Photo caption: Wahweap Overlook
 
-#### Wahweap → Dam Overlook
+#### Wahweap → Page Shore Amphitheater
 
-- Activity ID: sat-9-wahweap-dam-overlook
+- Activity ID: sun-wahweap-amphitheater
 
-- Time: 07:45–08:05 UTC−7
-
-- Duration: 20 min
-
-- Start timestamp: 2026-09-27T07:45:00-07:00
-
-- End timestamp: 2026-09-27T08:05:00-07:00
-
-- Categories: drive
-
-- Description: Drive across the dam and park.
-
-#### Glen Canyon Dam Overlook
-
-- Activity ID: sat-10-glen-canyon-dam-overlook
-
-- Time: 08:05–08:35 UTC−7
-
-- Duration: 30 min
-
-- Start timestamp: 2026-09-27T08:05:00-07:00
-
-- End timestamp: 2026-09-27T08:35:00-07:00
-
-- Categories: hike
-
-- Place IDs: glen-canyon-dam-overlook
-
-- Description: Short walk and views.
-
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Glen+Canyon+Dam+Overlook%2C+Page%2C+Arizona>)
-
-- Photo reference: [Glen Canyon Dam and Lake Powell](<https://d36tnp772eyphs.cloudfront.net/blogs/1/2017/10/Lake-Powell-and-Glen-Canyon-Dam-in-the-Desert-of-Arizona-United-States.jpg>)
-
-- Photo caption: Glen Canyon Dam
-
-#### Dam Overlook → Amphitheater
-
-- Activity ID: sat-11-dam-overlook-amphitheater
-
-- Time: 08:35–08:50 UTC−7
+- Time: 09:15–09:30 UTC−7
 
 - Duration: 15 min
 
-- Start timestamp: 2026-09-27T08:35:00-07:00
+- Start timestamp: 2026-09-27T09:15:00-07:00
 
-- End timestamp: 2026-09-27T08:50:00-07:00
+- End timestamp: 2026-09-27T09:30:00-07:00
 
 - Categories: drive
 
@@ -738,67 +698,51 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Activity ID: sat-12-page-shore-amphitheater
 
-- Time: 08:50–09:20 UTC−7
+- Time: 09:30–10:00 UTC−7
 
 - Duration: 30 min
 
-- Start timestamp: 2026-09-27T08:50:00-07:00
+- Start timestamp: 2026-09-27T09:30:00-07:00
 
-- End timestamp: 2026-09-27T09:20:00-07:00
+- End timestamp: 2026-09-27T10:00:00-07:00
 
 - Categories: 
 
 - Place IDs: page-shore-amphitheater
 
-- Description: Short sandstone exploration and photos behind Big Lake Trading Post / Shell. The map pin marks the attraction; use the nearby signed access and permitted parking, then walk. Return to the car by 09:20.
+- Description: Short sandstone exploration and photos behind Big Lake Trading Post / Shell. The map pin marks the attraction; use the nearby signed access and permitted parking, then walk. Return to the car by 10:00.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=36.8980563%2C-111.4446136>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=36.8980563%252C-111.4446136>)
 
-- Photo reference: [Sandstone alcove near Page](<https://i0.wp.com/liveloveruntravel.com/wp-content/uploads/2024/03/Big-Lake-Sand-Cave-Page-Cave-53.jpg?resize=1000%2C1500&ssl=1>)
+- Photo reference: [Sandstone alcove near Page](<https://i0.wp.com/liveloveruntravel.com/wp-content/uploads/2024/03/Big-Lake-Sand-Cave-Page-Cave-53.jpg?resize=1000%252C1500&ssl=1>)
 
 - Photo caption: Page sandstone
-
-#### Page Shore Amphitheater · departure buffer
-
-- Activity ID: sat-13-page
-
-- Time: 09:20–09:30 UTC−7
-
-- Duration: 10 min
-
-- Start timestamp: 2026-09-27T09:20:00-07:00
-
-- End timestamp: 2026-09-27T09:30:00-07:00
-
-- Categories: 
-
-- Description: Snack and schedule buffer before leaving for the tour meeting point. No Walmart stop; leave by 09:30.
 
 #### Page Shore Amphitheater → Tsé
 
 - Activity ID: sun-4-page-tse
 
-- Time: 09:30–10:10 UTC−7
+- Time: 10:00–10:15 UTC−7
 
-- Duration: 40 min
+- Duration: 15 min
 
-- Start timestamp: 2026-09-27T09:30:00-07:00
+- Start timestamp: 2026-09-27T10:00:00-07:00
 
-- End timestamp: 2026-09-27T10:10:00-07:00
+- End timestamp: 2026-09-27T10:15:00-07:00
 
 - Categories: drive
 
-- Description: Leave the amphitheater access parking by 09:30. The nearby tour meeting point is on Hwy 98 at milepost 299.8. This 40-minute block includes the short drive, parking and a generous booking buffer; target arrival by 10:10 for the 10:20 check-in.
+- Description: The actual drive from the amphitheater access parking to the Tsé Bíghanílíní meeting point is only about 5 minutes. Allow roughly 10 additional minutes for pulling out, parking and a small arrival margin. Leave by 10:00 and target arrival around 10:15 for the 10:20 check-in; check-in closes at 10:35.
 
 #### Tsé Bíghanílíní
 
 - Activity ID: sun-5-tse-bighanilini
 
-- Time: 10:10–11:05 UTC−7
+- Time: 10:15–11:05 UTC−7
 
-- Duration: 55 min
+- Duration: 50 min
 
-- Start timestamp: 2026-09-27T10:10:00-07:00
+- Start timestamp: 2026-09-27T10:15:00-07:00
 
 - End timestamp: 2026-09-27T11:05:00-07:00
 
@@ -806,9 +750,9 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Place IDs: tse-bighanilini-meeting-point
 
-- Description: Early-arrival buffer, 10:20 check-in, toilets and wait for the booked departure. Check-in closes at 10:35.
+- Description: Arrive around 10:15, check in at 10:20, use the toilets and wait for the booked departure. Check-in closes at 10:35.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Tse+Bighanilini+Tours%2C+Page%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Tse+Bighanilini+Tours%252C+Page%252C+Arizona>)
 
 #### Upper Antelope Canyon
 
@@ -830,11 +774,11 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Description: The booked 90-minute tour includes the operator’s shuttle rides to and from the canyon. Return to the meeting-point vehicle around 12:35.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Upper+Antelope+Canyon%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Upper+Antelope+Canyon%252C+Arizona>)
 
 - reference link: [Operator tour details](<https://www.tsebighanilini.com/faq/>)
 
-- Photo reference: [Light beams in Upper Antelope Canyon](<https://commons.wikimedia.org/wiki/Special:Redirect/file/UPPER%20ANTELOPE%20CANYON%20%2C%20PAGE%2C%20ARIZONA%20-%20LIGHTBEAMS.jpg?width=1200>)
+- Photo reference: [Light beams in Upper Antelope Canyon](<https://commons.wikimedia.org/wiki/Special:Redirect/file/UPPER%2520ANTELOPE%2520CANYON%2520%252C%2520PAGE%252C%2520ARIZONA%2520-%2520LIGHTBEAMS.jpg?width=1200>)
 
 - Photo caption: Upper Antelope Canyon
 
@@ -856,7 +800,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Description: After the tour, drive into Page for a quick lunch and toilets. Keep it fast and leave Page by 13:15 for the Grand Canyon.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Tse+Bighanilini+Tours%2C+Page%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Tse+Bighanilini+Tours%252C+Page%252C+Arizona>)
 
 #### Page → Desert View
 
@@ -876,7 +820,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Description: Drive from Page via US‑89 through Cameron, then AZ‑64 to Desert View. Allow 2 hours 45 minutes including a short break and east-entrance margin. Recheck live navigation; shorten the viewpoints if delayed.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 #### Desert View
 
@@ -896,7 +840,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Description: Exterior viewpoints and photos. Enter the tower only if access is immediate and you can leave by 16:25.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 - Photo reference: [Desert View Watchtower at the Grand Canyon](<https://cdn.phoide.com/Thumbs/29530936696.jpg>)
 
@@ -920,7 +864,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Description: Buy dinner or any missing groceries before heading to Navajo Point. The deli is currently listed to close at 17:00 and the market later; recheck hours shortly before the trip. If you prefer, skip this stop and cook dinner at the campsite.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Market+and+Deli%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Market+and+Deli%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 - reference link: [NPS hours and services](<https://www.nps.gov/places/000/desert-view-market-deli.htm>)
 
@@ -988,7 +932,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Description: Drive back east to the booked Desert View Campground and check in at the reserved site.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 #### Desert View Campground
 
@@ -1010,7 +954,7 @@ After lunch in Kanab, head straight to Horseshoe Bend, then Lone Rock for daylig
 
 - Solar note: 🌅 Sunset ≈18:17 UTC−7
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 - reference link: [NPS campground details](<https://www.nps.gov/grca/planyourvisit/desert-view-campground.htm>)
 
@@ -1072,7 +1016,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Description: No-cook breakfast, break camp and final gear check. Pack for the full day; there is no midday return.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 #### Desert View Campground → Visitor Center
 
@@ -1092,7 +1036,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Description: Drive west along Desert View Drive to the Visitor Center and park.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Grand+Canyon+Visitor+Center%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Grand+Canyon+Visitor+Center%252C+Arizona>)
 
 #### Visitor Center → South Kaibab
 
@@ -1134,7 +1078,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Description: Hike to Ooh Aah Point and Cedar Ridge, then return. Cedar Ridge is about 4.8 km return with roughly 340 m of ascent; use Ooh Aah as the shorter turnaround if heat or pace warrants, and allow more time uphill. Current access is reported open through Tip-Off with closure below it. Carry all required water—the trail has none and the trailhead filling station is currently reported off—and recheck conditions and water status before travel.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=South+Kaibab+Trailhead%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=South+Kaibab+Trailhead%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 - trail link: [AllTrails](<https://www.alltrails.com/trail/us/arizona/south-kaibab-trail>)
 
@@ -1180,11 +1124,11 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Description: Recovery snack and toilets, then walk about five minutes from the Visitor Center plaza to Mather Point. Eat lunch and rest, and buy a portable dinner inside the park before continuing. The westbound Orange shuttle is an alternative to walking, with a short ride plus waiting time.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mather+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mather+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 - reference link: [NPS shuttle schedule](<https://www.nps.gov/grca/planyourvisit/kaibab-orange-route.htm>)
 
-- Photo reference: [Clouds and fog drifting through the Grand Canyon below Mather Point](<https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Grand_Canyon_National_Park_Watching_Clouds_from_Mather_Point_%2815773877478%29.jpg/1280px-Grand_Canyon_National_Park_Watching_Clouds_from_Mather_Point_%2815773877478%29.jpg>)
+- Photo reference: [Clouds and fog drifting through the Grand Canyon below Mather Point](<https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Grand_Canyon_National_Park_Watching_Clouds_from_Mather_Point_%252815773877478%2529.jpg/1280px-Grand_Canyon_National_Park_Watching_Clouds_from_Mather_Point_%252815773877478%2529.jpg>)
 
 - Photo caption: Mather Point · NPS / Michael Quinn
 
@@ -1206,7 +1150,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Description: Continue about 0.7 mi / 1.1 km along the Rim Trail from Mather Point, or use the Orange shuttle. Visit Yavapai Point and the Geology Museum, then return to the Visitor Center by shuttle in time to leave for Hopi Point. The museum is currently listed as open daily 08:00–19:00; recheck before the trip.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Yavapai+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Yavapai+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 - reference link: [NPS museum details](<https://www.nps.gov/places/000/yavapai-geology-museum.htm>)
 
@@ -1238,7 +1182,7 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
     
     Aim to reach Hopi Point by 15:45 UTC−7. Arrival by 16:00 UTC−7 is still workable if queues are long; use some of the following viewpoint time.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Hopi+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Hopi+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 - reference link: [NPS Blue Route](<https://www.nps.gov/grca/planyourvisit/village-blue-route.htm>)
 
@@ -1262,11 +1206,11 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Description: Enjoy Hopi Point, then walk about 0.8 mi / 1.3 km along the Rim Trail to Mohave Point with photo stops.
 
-- map link: [Hopi Point](<https://www.google.com/maps/search/?api=1&query=Hopi+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Hopi Point](<https://www.google.com/maps/search/?api=1&query=Hopi+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
-- map link: [Mohave Point](<https://www.google.com/maps/search/?api=1&query=Mohave+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Mohave Point](<https://www.google.com/maps/search/?api=1&query=Mohave+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
-- Photo reference: [Grand Canyon view from Hopi Point](<https://www.shutterbug.com/images/photo_post/%5Buid%5D/5737.2.jpg>)
+- Photo reference: [Grand Canyon view from Hopi Point](<https://www.shutterbug.com/images/photo_post/%255Buid%255D/5737.2.jpg>)
 
 - Photo caption: Hopi Point
 
@@ -1290,9 +1234,9 @@ Leave Lone Rock by 07:00 Arizona time. Protect the 09:30 departure from the amph
 
 - Solar note: 🌅 Sunset ≈18:15 UTC−7
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mohave+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mohave+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
-- Photo reference: [Sunset from Mohave Point](<https://commons.wikimedia.org/wiki/Special:Redirect/file/Sunset%20from%20Mohave%20Point%2C%20Grand%20Canyon%20National%20Park%2C%20Arizona%2C%20RP-F-2007-140-23-3.jpg?width=1200>)
+- Photo reference: [Sunset from Mohave Point](<https://commons.wikimedia.org/wiki/Special:Redirect/file/Sunset%2520from%2520Mohave%2520Point%252C%2520Grand%2520Canyon%2520National%2520Park%252C%2520Arizona%252C%2520RP-F-2007-140-23-3.jpg?width=1200>)
 
 - Photo caption: Mohave Point
 
@@ -1430,7 +1374,7 @@ Take water, layers, headlamps and charging needs for the full day. After buying 
 
 - Description: Drive via Williams, I‑40, US‑93 / I‑11 and I‑215 toward Alamo at 7135 Gillespie St. Budget about 5 hours of driving plus a 15-minute break. Navigate to the rental center with a chosen fuel stop rather than the generic Las Vegas city pin; use the following buffer for delays.
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%2C+7135+Gillespie+St%2C+Las+Vegas%2C+NV+89119-4267>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%252C+7135+Gillespie+St%252C+Las+Vegas%252C+NV+89119-4267>)
 
 #### Las Vegas → Alamo rental return
 
@@ -1450,7 +1394,7 @@ Take water, layers, headlamps and charging needs for the full day. After buying 
 
 - Description: Packed lunch, traffic buffer, refuel and clear the SUV, then return it to Alamo at 7135 Gillespie St. Complete handover by 14:00–14:15 UTC−7. The booked return remains 16:00. Use this buffer to protect terminal arrival by 15:00.
 
-- map link: [Alamo return · 7135 Gillespie St](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%2C+7135+Gillespie+St%2C+Las+Vegas%2C+NV+89119-4267>)
+- map link: [Alamo return · 7135 Gillespie St](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%252C+7135+Gillespie+St%252C+Las+Vegas%252C+NV+89119-4267>)
 
 #### Alamo rental center → airport terminal
 
@@ -1494,7 +1438,7 @@ Take water, layers, headlamps and charging needs for the full day. After buying 
 
 - Solar note: 🌅 Sunset ≈18:25 UTC−7 · after departure
 
-- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Harry+Reid+International+Airport%2C+Las+Vegas%2C+Nevada>)
+- map link: [Google Maps](<https://www.google.com/maps/search/?api=1&query=Harry+Reid+International+Airport%252C+Las+Vegas%252C+Nevada>)
 
 - reference link: [Airport rental shuttle](<https://www.harryreidairport.com/rental-cars>)
 
@@ -1664,7 +1608,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Time: Overnight
 
-- Summary: Arrive Saturday around 16:50 Arizona time, set up camp and watch sunset around 18:16. Keep clocks on Arizona time; leave Sunday at 07:00.
+- Summary: Saturday overnight. Keep clocks on Arizona time; Sunday morning departure is now 08:30 after breakfast and breaking camp.
 
 ### 11. Wahweap Overlook
 
@@ -1678,27 +1622,11 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Sun 27
 
-- Time: 07:30–07:45 UTC−7
+- Time: 09:00–09:15 UTC−7
 
 - Summary: Lake Powell views and photos.
 
-### 12. Glen Canyon Dam Overlook
-
-- Stop ID: glen-canyon-dam-overlook
-
-- Place ID: glen-canyon-dam-overlook
-
-- Day IDs: sun
-
-- Default day ID: sun
-
-- Day label: Sun 27
-
-- Time: 08:05–08:35 UTC−7
-
-- Summary: Short walk and views over the dam and river.
-
-### 13. Page Shores Amphitheater
+### 12. Page Shores Amphitheater
 
 - Stop ID: page-shore-amphitheater
 
@@ -1710,11 +1638,11 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Sun 27
 
-- Time: 08:50–09:20 UTC−7
+- Time: 09:30–10:00 UTC−7
 
-- Summary: Sandstone stop behind Big Lake Trading Post / Shell. Pin marks the attraction; use the nearby signed access and permitted parking.
+- Summary: Sandstone stop behind Big Lake Trading Post / Shell. Return to the car by 10:00, then it is only about a 5-minute drive to the tour meeting point.
 
-### 14. Tsé Bíghanílíní meeting point
+### 13. Tsé Bíghanílíní meeting point
 
 - Stop ID: tse-bighanilini-meeting-point
 
@@ -1726,11 +1654,11 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Day label: Sun 27
 
-- Time: 10:20 check-in
+- Time: 10:15 arrival · 10:20 check-in
 
-- Summary: Hwy 98 milepost 299.8; check-in closes at 10:35.
+- Summary: Hwy 98 milepost 299.8; arrive around 10:15 for the 10:20 check-in. Check-in closes at 10:35.
 
-### 15. Upper Antelope Canyon
+### 14. Upper Antelope Canyon
 
 - Stop ID: upper-antelope-canyon
 
@@ -1746,7 +1674,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Booked guided tour after the Tsé check-in.
 
-### 16. Desert View
+### 15. Desert View
 
 - Stop ID: desert-view
 
@@ -1762,7 +1690,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Exterior viewpoints, with the tower interior only if immediate.
 
-### 17. Navajo Point
+### 16. Navajo Point
 
 - Stop ID: lipan-point
 
@@ -1778,7 +1706,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Colorado River and Watchtower views. Replaces closed Lipan Point; leave in time for daylight camp setup.
 
-### 18. Desert View Campground
+### 17. Desert View Campground
 
 - Stop ID: desert-view-campground
 
@@ -1794,7 +1722,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Set up in daylight, eat dinner at camp or buy food from the nearby Desert View Market, then leave at 06:45 Monday.
 
-### 19. Grand Canyon Visitor Center
+### 18. Grand Canyon Visitor Center
 
 - Stop ID: grand-canyon-visitor-center
 
@@ -1810,7 +1738,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Park, use the toilet and join the early Orange shuttle queue.
 
-### 20. South Kaibab Trail
+### 19. South Kaibab Trail
 
 - Stop ID: south-kaibab-trail
 
@@ -1826,7 +1754,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Ooh Aah Point and Cedar Ridge; carry all required water.
 
-### 21. Mather Point
+### 20. Mather Point
 
 - Stop ID: mather-point
 
@@ -1842,7 +1770,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Scenic stop, recovery and lunch before continuing to Yavapai Point.
 
-### 22. Yavapai Point
+### 21. Yavapai Point
 
 - Stop ID: yavapai-point
 
@@ -1858,7 +1786,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Yavapai Point and the Geology Museum after Mather Point and lunch.
 
-### 23. Hopi Point
+### 22. Hopi Point
 
 - Stop ID: hopi-point
 
@@ -1874,7 +1802,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: West-rim panorama and the start of the Rim Trail walk.
 
-### 24. Mohave Point
+### 23. Mohave Point
 
 - Stop ID: mohave-point
 
@@ -1890,7 +1818,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Dinner sandwich and sunset before the shuttle return.
 
-### 25. Long Jim Loop
+### 24. Long Jim Loop
 
 - Stop ID: long-jim-loop
 
@@ -1906,7 +1834,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Saved dispersed-camping area at 35.976970, −112.126680. Arrive Monday around 19:55; an available pullout is not guaranteed.
 
-### 26. Alamo · Harry Reid airport rental center
+### 25. Alamo · Harry Reid airport rental center
 
 - Stop ID: airport-rental-return
 
@@ -1922,7 +1850,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Summary: Alamo, 7135 Gillespie St. Pickup Friday 09:00. Tuesday booked return remains 16:00; complete handover by 14:00–14:15 UTC−7 for terminal arrival by 15:00.
 
-### 27. Harry Reid International Airport
+### 26. Harry Reid International Airport
 
 - Stop ID: harry-reid-international-airport
 
@@ -1948,7 +1876,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -115.1398
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Las+Vegas%2C+Nevada>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Las+Vegas%252C+Nevada>)
 
 ### Zion Visitor Center
 
@@ -1958,7 +1886,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.9869
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Zion+Canyon+Visitor+Center%2C+Springdale%2C+Utah>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Zion+Canyon+Visitor+Center%252C+Springdale%252C+Utah>)
 
 ### Pa’rus Trail
 
@@ -1968,7 +1896,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.9846
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Pa%27rus+Trail%2C+Zion+National+Park%2C+Utah>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Pa%2527rus+Trail%252C+Zion+National+Park%252C+Utah>)
 
 ### Canyon Overlook
 
@@ -1978,7 +1906,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.9406
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%2C+Zion+National+Park%2C+Utah>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Canyon+Overlook+Trailhead%252C+Zion+National+Park%252C+Utah>)
 
 ### Watchman Campground
 
@@ -1988,7 +1916,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.9868
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%2C+Zion+National+Park%2C+Utah>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Watchman+Campground%252C+Zion+National+Park%252C+Utah>)
 
 ### The Grotto
 
@@ -1998,7 +1926,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.9512
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=The+Grotto%2C+Zion+National+Park%2C+Utah>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=The+Grotto%252C+Zion+National+Park%252C+Utah>)
 
 ### Scout Lookout
 
@@ -2008,7 +1936,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.9508
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Scout+Lookout%2C+Zion+National+Park%2C+Utah>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Scout+Lookout%252C+Zion+National+Park%252C+Utah>)
 
 ### Kanab
 
@@ -2018,7 +1946,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.5263
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Kanab%2C+Utah>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Kanab%252C+Utah>)
 
 ### Wahweap Overlook
 
@@ -2028,7 +1956,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.4989584
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Wahweap+Overlook%2C+Page%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Wahweap+Overlook%252C+Page%252C+Arizona>)
 
 ### Glen Canyon Dam Overlook
 
@@ -2038,7 +1966,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.4835
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Glen+Canyon+Dam+Overlook%2C+Page%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Glen+Canyon+Dam+Overlook%252C+Page%252C+Arizona>)
 
 ### Page Shores Amphitheater
 
@@ -2048,7 +1976,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.4446136
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=36.8980563%2C-111.4446136>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=36.8980563%252C-111.4446136>)
 
 ### Horseshoe Bend
 
@@ -2058,7 +1986,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.5104
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Horseshoe+Bend%2C+Page%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Horseshoe+Bend%252C+Page%252C+Arizona>)
 
 ### Lone Rock Beach
 
@@ -2068,7 +1996,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.5456
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lone+Rock+Beach%2C+Utah>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lone+Rock+Beach%252C+Utah>)
 
 ### Tsé Bíghanílíní meeting point
 
@@ -2078,7 +2006,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.4085
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Tse+Bighanilini+Tours%2C+Page%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Tse+Bighanilini+Tours%252C+Page%252C+Arizona>)
 
 ### Upper Antelope Canyon
 
@@ -2088,7 +2016,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.3743
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Upper+Antelope+Canyon%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Upper+Antelope+Canyon%252C+Arizona>)
 
 ### Desert View
 
@@ -2098,7 +2026,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.8262
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Desert View Market &amp; Deli
 
@@ -2108,7 +2036,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.8267
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Market+and+Deli%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Market+and+Deli%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Desert View Campground
 
@@ -2118,7 +2046,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.8226
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Desert+View+Campground%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Lipan Point
 
@@ -2128,7 +2056,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -111.8536
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lipan+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Lipan+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Village Market
 
@@ -2148,7 +2076,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.1176
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Yavapai+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Yavapai+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Long Jim Loop
 
@@ -2168,7 +2096,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.1093
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Grand+Canyon+Visitor+Center%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Grand+Canyon+Visitor+Center%252C+Arizona>)
 
 ### South Kaibab Trail
 
@@ -2178,7 +2106,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.0832
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=South+Kaibab+Trailhead%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=South+Kaibab+Trailhead%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Mather Point
 
@@ -2188,7 +2116,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.1077
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mather+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mather+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Hopi Point
 
@@ -2198,7 +2126,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.155
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Hopi+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Hopi+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Mohave Point
 
@@ -2208,7 +2136,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -112.1726
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mohave+Point%2C+Grand+Canyon+National+Park%2C+Arizona>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Mohave+Point%252C+Grand+Canyon+National+Park%252C+Arizona>)
 
 ### Alamo · Harry Reid airport rental center
 
@@ -2218,7 +2146,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -115.1636769
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%2C+7135+Gillespie+St%2C+Las+Vegas%2C+NV+89119-4267>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Alamo+Rent+A+Car%252C+7135+Gillespie+St%252C+Las+Vegas%252C+NV+89119-4267>)
 
 ### Harry Reid International Airport
 
@@ -2228,7 +2156,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 - Longitude: -115.1537
 
-- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Harry+Reid+International+Airport%2C+Las+Vegas%2C+Nevada>)
+- [Google Maps](<https://www.google.com/maps/search/?api=1&query=Harry+Reid+International+Airport%252C+Las+Vegas%252C+Nevada>)
 
 ### Navajo Point
 
@@ -2244,7 +2172,7 @@ Remove sightseeing and discretionary breaks first. Keep fuel, car return and air
 
 These are the JSON defaults, not saved browser selections.
 
-- [x] Keep the Upper Antelope confirmation and meeting pin offline; protect the 10:20 arrival. (ID: `tour`)
+- [x] Keep the Upper Antelope confirmation and meeting pin offline; target arrival around 10:15 for the 10:20 check-in. (ID: `tour`)
 
 - [ ] Check Lone Rock access, ground conditions, stove/fire rules and rental-road restrictions. (ID: `lone-rock`)
 
